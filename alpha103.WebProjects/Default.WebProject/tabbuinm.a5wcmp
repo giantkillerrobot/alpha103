@@ -1,0 +1,806 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "style_name": "<ProjectStyle>",
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "FontSize": "Medium",
+        "A5ContainerClassPadding": "4px",
+        "layoutType": "ControlWidth",
+        "pageTitle": "Tabbed User Interface",
+        "serverSideEvents": {
+            "onTabbedUIInitialize": ""
+        },
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close",
+            "OKButtonText": "OK"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "info": {
+            "createdBy": "mac",
+            "dateCreated": "2019-1-15",
+            "dateLastEdited": "2019-1-16"
+        },
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "display": true,
+            "loginPrompt": "Login",
+            "logoutPrompt": "Logout",
+            "loginActionType": "FullReload",
+            "showPromptForCreateNewAccount": false,
+            "newAccountLinkLocation": "MenuBar",
+            "promptForCreateNewAccount": "Register",
+            "createNewAccountComponent": "",
+            "createNewAccountWindowTitle": "Create New Account",
+            "customLeftMenuBarHTML": "",
+            "customCenterMenuBarHTML": "",
+            "loggedInMessageTemplate": "Logged in as: {userName}",
+            "dialog": {
+                "usernameLabel": "User Name",
+                "passwordLabel": "Password",
+                "hasFreeformLayout": false,
+                "freeformLayout": "",
+                "userNameLabelStyle": "",
+                "userNameFieldStyle": "",
+                "passwordLabelStyle": "",
+                "passwordFieldStyle": "",
+                "animation": true,
+                "animate": {
+                    "show": {
+                        "method": "slide",
+                        "speed": "slow"
+                    },
+                    "hide": {
+                        "method": "slide",
+                        "speed": "slow"
+                    }
+                },
+                "width": "",
+                "height": "",
+                "loginButtonLabel": "Login",
+                "loginButtonStyle": "",
+                "cancelButtonLabel": "Cancel",
+                "cancelButtonStyle": "",
+                "headerText": "",
+                "footerText": "",
+                "disableAutocompleteOnUsername": false,
+                "disableAutocompleteOnPassword": true
+            }
+        },
+        "page_fields": [
+            {
+                "controlType": "layout_directive_TreeBegin",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=5b80f377-3026-442a-bb33-0a4f537d0f9f}{I:'$$layout.hierarchy'} [Tree Control: TREE_1]",
+                "displayODFlat": "{Data=5b80f377-3026-442a-bb33-0a4f537d0f9f}{I:'$$layout.hierarchy'} [Tree Control: TREE_1]",
+                "idInternal": "5b80f377-3026-442a-bb33-0a4f537d0f9f",
+                "lastIndex": 7,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=5b80f377-3026-442a-bb33-0a4f537d0f9f}{I:'$$layout.hierarchy'} [Tree Control: TREE_1]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=5b80f377-3026-442a-bb33-0a4f537d0f9f}{I:'$$layout.hierarchy'} [Tree Control: TREE_1]",
+                "v": {
+                    "container": {
+                        "ID": "TREE_1"
+                    },
+                    "treeControlClass": "[class.TreeControl]",
+                    "tree": {
+                        "displayasExpandingMenu": false,
+                        "expandingMenuSettingsJSON": ""
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "\t<div \tid=\"{grid.componentname}.TREE_1.R{grid.rownumber}\" \n\t\t\tclass=\"A5container \"  style=\"\"  ><!--DIV for Tree Control Container-->\n\t\t\t__treeControl__\n"
+                }
+            },
+            {
+                "controlType": "layout_directive_BranchBegin",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=77fe7c61-b56c-4366-b6a8-0111db6127da}{I:'vertLineCapTop'} [Tree Branch: Customer Data]",
+                "displayODFlat": "{Data=77fe7c61-b56c-4366-b6a8-0111db6127da}{I:'vertLineCapTop'} [Tree Branch: Branch_1]",
+                "idInternal": "77fe7c61-b56c-4366-b6a8-0111db6127da",
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=77fe7c61-b56c-4366-b6a8-0111db6127da}{I:'vertLineCapTop'} [Tree Branch: Branch_1]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=77fe7c61-b56c-4366-b6a8-0111db6127da}{I:'vertLineCapTop'} [Tree Branch: Customer Data]",
+                "v": {
+                    "branchLabel": "Customer Data",
+                    "controlNesting": "SameLevelAsPrevious",
+                    "outdentLevel": 1,
+                    "treeControlIndentLevel": 1,
+                    "initialState": "Closed",
+                    "expandedIcon": "<Auto>",
+                    "collapsedIcon": "<Auto>",
+                    "menuPrefixIcon": ""
+                },
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "branch begin"
+                }
+            },
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5e2966e7-11c4-4fed-b3b5-34eead8db852}{I:'$$control.html.advButton'} [Tabbed UI Button: Customers (Grid Component)] �",
+                "displayODFlat": "{Data=5e2966e7-11c4-4fed-b3b5-34eead8db852}{I:'$$control.html.advButton'} [Tabbed UI Button: Customers]",
+                "idInternal": "5e2966e7-11c4-4fed-b3b5-34eead8db852",
+                "parentContainer": 2,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5e2966e7-11c4-4fed-b3b5-34eead8db852}{I:'$$control.html.advButton'} [Tabbed UI Button: Customers]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5e2966e7-11c4-4fed-b3b5-34eead8db852}{I:'$$control.html.advButton'} [Tabbed UI Button: Customers (Grid Component)] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Customers",
+                        "actionType": "Component",
+                        "paneTitle": "Customers",
+                        "canClosePane": true,
+                        "inTreeControl": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": 2,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "gridName": "customerNM_grid",
+                            "componentType": "Grid",
+                            "alias": "<DefaultAlias>",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_5e2966e7_11c4_4fed_b3b5_34eead8db852(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    },
+                    "pageLayoutPart": {
+                        "grid": {
+                            "onLoadCompleteJavascript": ""
+                        }
+                    }
+                },
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_5e2966e7_11c4_4fed_b3b5_34eead8db852(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customers</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_5e2966e7_11c4_4fed_b3b5_34eead8db852'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\tgo.gridName = 'customerNM_grid';\n\tgo.alias = '{alias}_CUSTOMERNM_152859QVIB';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = '';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Customers',  name :'{alias}_CUSTOMERNM_152859QVIB', type:'grid', data: go , autoRefresh: false   }); \n\t\n}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": true
+            },
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ce0d553f-905f-4857-bc05-6151beb0b2fa}{I:'$$control.html.advButton'} [Tabbed UI Button: Directory (Report Layout )] �",
+                "displayODFlat": "{Data=ce0d553f-905f-4857-bc05-6151beb0b2fa}{I:'$$control.html.advButton'} [Tabbed UI Button: Directory]",
+                "idInternal": "ce0d553f-905f-4857-bc05-6151beb0b2fa",
+                "parentContainer": 2,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ce0d553f-905f-4857-bc05-6151beb0b2fa}{I:'$$control.html.advButton'} [Tabbed UI Button: Directory]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ce0d553f-905f-4857-bc05-6151beb0b2fa}{I:'$$control.html.advButton'} [Tabbed UI Button: Directory (Report Layout )] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Directory",
+                        "actionType": "Report Layout ",
+                        "paneTitle": "Directory",
+                        "canClosePane": true,
+                        "inTreeControl": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": 2,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "componentType": "Grid",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "reportPrintDefinition": "<layoutName=\"customerdirectorynm@ProjectReport\">\n<layoutType=1>\n<dbfFilter=\"\">\n<dbfOrder=\"\">\n<sqlFilter=\"\">\n<sqlOrder=\"\">\n<localArguments=\"\">\n<argumentBindings=\"\">\n<pdfOptions=\"\">\n<localFilter=\"\">\n<localOrder=\"\">\n",
+                            "layoutTypeC": "Report",
+                            "layoutName": "customerdirectorynm@ProjectReport",
+                            "sqlReport": true,
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_ce0d553f_905f_4857_bc05_6151beb0b2fa(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    }
+                },
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_ce0d553f_905f_4857_bc05_6151beb0b2fa(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Directory</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_ce0d553f_905f_4857_bc05_6151beb0b2fa'] = function() {\n\tvar objOverrides = typeof arguments[0] != 'undefined' ? arguments[0] : {};\n\t\n\tvar ro = new Object();\n\t\n\tro.hostComponentType = 'tabbedUI';\n\n\tro.reportName = 'customerdirectorynm@ProjectReport';\n\tro.reportType = 'report';\n\tro.filter = '';\n\tro.order = '';\n\tro.sqlFilter = '';\n\tro.sqlOrder = '';\n\tro.arguments = '';\n\tro.localArguments = '';\n\tro.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tro.workingMessage = 'Working...';\n\tro.width = '9in';\n\tro.height = '11.5in';\n\tro.pdfoptions = '';\n\tro.displayMode = '';\n\tro.saveAs = 'pdf';\n\tro.afterExecuteJavascript = '';\n\tro.beforeExecuteJavascript = ''\n\tif(ro.beforeExecuteJavascript != '') eval(ro.beforeExecuteJavascript);\n\tif(A5.__dtfmt) ro.__dtfmt = A5.__dtfmt;\n\t\n\tro.__flagIIS = false;\n\tif(A5.__flagIIS) ro.__flagIIS = A5.__flagIIS;\n\t\n\t\n\t\n\tro.htmlReporting = false;\n\t\n\t\n\t\n\n\tif(typeof objOverrides != 'undefined') {\n\t\t$u.o.assign(ro,objOverrides)\n\t}\n\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title:'Directory',  name:'PANE_ce0d553f_905f_4857_bc05_6151beb0b2fa',  type:'report', data: ro , autoRefresh: false , onBeforeRemove: function(paneObj) {  var ele = $(paneObj._id + '.PANE'); if(ele) ele.src = 'about:blank'; return true;}\t});\n\t\n\t}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": true
+            },
+            {
+                "controltype": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=7b17a7c6-00e7-45eb-84d0-f0251961c35a}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX (UX Component)] �",
+                "displayODFlat": "{Data=7b17a7c6-00e7-45eb-84d0-f0251961c35a}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=7b17a7c6-00e7-45eb-84d0-f0251961c35a}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=7b17a7c6-00e7-45eb-84d0-f0251961c35a}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX (UX Component)] �",
+                "idInternal": "7b17a7c6-00e7-45eb-84d0-f0251961c35a",
+                "parentContainer": 2,
+                "inPanelCard": false,
+                "inTreeControl": true,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_7b17a7c6_00e7_45eb_84d0_f0251961c35a(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer UX</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_7b17a7c6_00e7_45eb_84d0_f0251961c35a'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\t\tgo.dialog2Name = 'customerNM_ux';\n\tgo.type = 'dialog2';\n\t\n\tgo.alias = '{alias}_CUSTOMERNM_12126JABQ';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = '';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Customer UX',  name :'{alias}_CUSTOMERNM_12126JABQ', type:'dialog2', data: go , autoRefresh: false   }); \n\t\n}\n"
+                },
+                "v": {
+                    "tabbedUI": {
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "buttonType": "Button",
+                        "buttonText": "Customer UX",
+                        "actionType": "Component",
+                        "paneTitle": "Customer UX",
+                        "canClosePane": true,
+                        "keyboardshortcutkey": "",
+                        "inTreeControl": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": 2,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "gridName": "customerNM_ux",
+                            "componentType": "UX",
+                            "alias": "<DefaultAlias>",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        }
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "securityGroups": "abcb957529784051b9329e3e7673a379,Administrators",
+                    "javascript": {
+                        "onclick": "action_{alias}_7b17a7c6_00e7_45eb_84d0_f0251961c35a(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    },
+                    "pageLayoutPart": {
+                        "grid": {
+                            "onLoadCompleteJavascript": ""
+                        }
+                    }
+                }
+            },
+            {
+                "controltype": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=15e00fb9-6054-4860-b7b6-8b20edb1bd9d}{I:'$$control.html.advButton'} [Tabbed UI Button: User Info (Grid Component)] �",
+                "displayODFlat": "{Data=15e00fb9-6054-4860-b7b6-8b20edb1bd9d}{I:'$$control.html.advButton'} [Tabbed UI Button: User Info]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=15e00fb9-6054-4860-b7b6-8b20edb1bd9d}{I:'$$control.html.advButton'} [Tabbed UI Button: User Info]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=15e00fb9-6054-4860-b7b6-8b20edb1bd9d}{I:'$$control.html.advButton'} [Tabbed UI Button: User Info (Grid Component)] �",
+                "idInternal": "15e00fb9-6054-4860-b7b6-8b20edb1bd9d",
+                "parentContainer": 2,
+                "inPanelCard": false,
+                "inTreeControl": true,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_15e00fb9_6054_4860_b7b6_8b20edb1bd9d(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >User Info</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_15e00fb9_6054_4860_b7b6_8b20edb1bd9d'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\tgo.gridName = 'userextendedinformation_grid';\n\tgo.alias = '{alias}_USEREXTEND_121846EQXL';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = '';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'User Info',  name :'{alias}_USEREXTEND_121846EQXL', type:'grid', data: go , autoRefresh: false   }); \n\t\n}\n"
+                },
+                "v": {
+                    "tabbedUI": {
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "buttonType": "Button",
+                        "buttonText": "User Info",
+                        "actionType": "Component",
+                        "paneTitle": "User Info",
+                        "canClosePane": true,
+                        "keyboardshortcutkey": "",
+                        "inTreeControl": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": 2,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "gridName": "userextendedinformation_grid",
+                            "componentType": "Grid",
+                            "alias": "<DefaultAlias>",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        }
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "securityGroups": "abcb957529784051b9329e3e7673a379,Administrators",
+                    "javascript": {
+                        "onclick": "action_{alias}_15e00fb9_6054_4860_b7b6_8b20edb1bd9d(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    },
+                    "pageLayoutPart": {
+                        "grid": {
+                            "onLoadCompleteJavascript": ""
+                        }
+                    }
+                }
+            },
+            {
+                "controlType": "layout_directive_TreeEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=7ee77d9a-e554-46f1-a4f4-37dbe5815571}{I:'vertLineCap'} [Tree Control End]",
+                "displayODFlat": "{Data=7ee77d9a-e554-46f1-a4f4-37dbe5815571}{I:'vertLineCap'} [Tree Control End]",
+                "idInternal": "7ee77d9a-e554-46f1-a4f4-37dbe5815571",
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=7ee77d9a-e554-46f1-a4f4-37dbe5815571}{I:'vertLineCap'} [Tree Control End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=7ee77d9a-e554-46f1-a4f4-37dbe5815571}{I:'vertLineCap'} [Tree Control End]",
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "\t\t<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n"
+                },
+                "containerStartIndex": 1
+            }
+        ],
+        "builderType": "TabbedUI",
+        "guid": "8a17de95-a726-4b29-9eba-5ea969b0bd89",
+        "componentName": "tabbuinm",
+        "componentFilename": "C:\\Users\\mac\\Documents\\AlphaAnywhere V12\\alpha103\\alpha103.WebProjects\\Default.WebProject\\tabbuinm.a5wcmp",
+        "_style_versionNumber": -1,
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "useCompactTheme": true,
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "selected": "15e00fb9-6054-4860-b7b6-8b20edb1bd9d\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "__WPhostName": "Chrome",
+        "embeddedMode": false,
+        "_style_hassubthemeTweaks": false,
+        "repeatingSectionsAreDirty": true,
+        "flagDropdownCascadingChanged": false,
+        "toolBox_value": "tabbedUIButton_GridComponent",
+        "addinBuildNumber": "5233",
+        "addinBuildNumberHighestUsed": "5233",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "_buildCount": "8",
+        "securityEnabled": true,
+        "showHideIsUsed": false,
+        "precalc": {
+            "usesSystemSVG": false,
+            "buttonPanel": {
+                "HTML": "\t<div \tid=\"{tabbedUI.alias}.TREE_1.R{grid.rownumber}\" \n\t\t\tclass=\" \"  style=\"\"  ><!--DIV for Tree Control Container-->\n\t\t\t<div class=\"[class.TreeControl]\" id=\"{tabbedUI.object}_TREE_5b80f377_3026_442a_bb33_0a4f537d0f9f\" ></div>\n\t\t<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>",
+                "JS": ""
+            },
+            "treeControlJS": "{tabbedUI.object}._treeControl_5b80f377_3026_442a_bb33_0a4f537d0f9f = new A5.Tree('{tabbedUI.object}_TREE_5b80f377_3026_442a_bb33_0a4f537d0f9f',[\n{\n\t\"html\": \"Customer Data\",\n\t\"collapsedIcon\": \"images/$$folder.png.a5image\",\n\t\"expandedIcon\": \"images/$$folder.open.png.a5image\",\n\t\"children\": [\n\t{\n\t\t\"html\": \"<span title=\\\"\\\">Customers</span>\",\n\t\t\"icon\": \"images/$$web.component.grid.png.a5image\",\n\t\t\"onClick\": function(){action_{alias}_5e2966e7_11c4_4fed_b3b5_34eead8db852(); return false;}\n\t},\n\t{\n\t\t\"html\": \"<span title=\\\"\\\">Directory</span>\",\n\t\t\"icon\": \"images/$$presentation.report.png.a5image\",\n\t\t\"onClick\": function(){action_{alias}_ce0d553f_905f_4857_bc05_6151beb0b2fa(); return false;}\n\t},\n\t{\n\t\t\"html\": \"<span title=\\\"\\\">Customer UX</span>\",\n\t\t\"icon\": \"images/$$web.component.dialog.png.a5image\",\n\t\t\"onClick\": function(){action_{alias}_7b17a7c6_00e7_45eb_84d0_f0251961c35a(); return false;}\n\t},\n\t{\n\t\t\"html\": \"<span title=\\\"\\\">User Info</span>\",\n\t\t\"icon\": \"images/$$web.component.grid.png.a5image\",\n\t\t\"onClick\": function(){action_{alias}_15e00fb9_6054_4860_b7b6_8b20edb1bd9d(); return false;}\n\t}]\n}],\n\t\t{\n\tmultiple: false,\n\ttheme: '{tabbedUI.style}',\n\tallowNullSelection: false,\n\tloopNavigate: true\n}\n\t);",
+            "hompePageJavascript": "var homePageHTML = '__homePageHtml__';\ntbiObj.add({title: '{tabbedUI.homePageTitle}', type: 'static', html: homePageHTML , close: false});\n",
+            "PageSetupJavascript": "\nvar tbiObj = new A5.TabbedInterfaceComponentHelper('{tabbedUI.alias}',__tabSettings__);\ntbiObj._functions = {};\ntbiObj._buttons = [];\nvar homePageHTML = '__homePageHtml__';\ntbiObj.add({title: '{tabbedUI.homePageTitle}', type: 'static', html: homePageHTML , close: false});\n\n\n\n\ntbiObj.showTabbedUIMenuPanel = function(flag) { \n\tvar resizePanels = function() { \n\t\tvar arr = tbiObj._tbObj._panes;\n\t\tfor(var i = 0; i < arr.length; i++) {\n\t\t\tvar id = arr[i]._id;\n\t\t\t$e.execute(id + '.PANE','a5resize');\n\t\t};\n\t}\n\n\n\n\tif(typeof flag == 'undefined') flag = true;\n\tif(typeof jQuery != 'undefined' && flag) {\n\t\tvar ele = $('tbi.MENUPANEL');\n\t\tele.style.display = '';\n\t\t$('tbi.EXPANDBAR').style.display = 'none';\n\t\tjQuery(ele).animate({width:$ga(ele,'A5OLDWIDTH') }, tbiObj._showAnimationSpeed,function() { resizePanels()});\n\t\ttbiObj.refreshLayout();\n\t} else {\n\t\t$('tbi.MENUPANEL').style.display=''; $('tbi.EXPANDBAR').style.display = 'none'; tbiObj.refreshLayout(); resizePanels();\n\t}\n\n\t}\ntbiObj.hideTabbedUIMenuPanel = function(flag) { \n\tvar resizePanels = function() { \n\t\tvar arr = tbiObj._tbObj._panes;\n\t\tfor(var i = 0; i < arr.length; i++) {\n\t\t\tvar id = arr[i]._id;\n\t\t\t$e.execute(id + '.PANE','a5resize');\n\t\t};\n\t}\n\n\tif(typeof flag == 'undefined') flag = true;\n\tif(typeof arguments[1] != 'undefined') flagShowExpandBar = arguments[1] ;\n\telse flagShowExpandBar = true;\n\tvar ele = $('tbi.MENUPANEL');\n\tif($ga(ele,'A5OLDWIDTH') == '' || $ga(ele,'A5OLDWIDTH') == null) $sa(ele,'A5OLDWIDTH',ele.style.width);\n\tif(typeof jQuery != 'undefined' && flag) {\n\t\tjQuery(ele).animate({width:22}, tbiObj._hideAnimationSpeed,'',function() {\n\t\t    var mele = $('tbi.MENUPANEL');\n\t\t    mele.style.display='none';\n\n\t\t    if(flagShowExpandBar) $('tbi.EXPANDBAR').style.display = '';\n\t\t    resizePanels();\n\t\t});\n\n\t} else {\n\t\t$('tbi.MENUPANEL').style.display='none';\n\t\tif(flagShowExpandBar) $('tbi.EXPANDBAR').style.display = '';\n\t\tresizePanels();\n\t}\n\n\n\t}\n\n\ntbiObj._defaultWindowSettings = new Object();\ntbiObj._defaultWindowSettings['dropdown'] = {\n\ttype: 'popup',\n\ttheme: this.styleName,\n\ttitle: {html: 'Null',show: false},\n\tbody:  {content: {type: 'blank'}}\n};\n\n\ntbiObj._defaultWindowSettings['modal'] = {\n\ttype: 'modal', autoPosition: 'in-view',\n\ttheme: this.styleName,\n\ttitle: {html: 'Customer Grid',\n\t\ttools: {items: [{action: 'close',name: 'Close',image: 'images/$$window.button.close.png.a5image'}],\n\t\t\tdummy: false\n\t\t}},\n\tbody: {content: {type: 'blank'}}\n};\n\ntbiObj._defaultWindowSettings['modeless'] = {\n\ttype: 'modeless', autoPosition: 'in-view',\n\ttheme: this.styleName,\n\ttitle: {html: 'Customer Grid',\n\t\ttools: {items: [{action: 'close',name: 'Close',image: 'images/$$window.button.close.png.a5image'}],\n\t\t\tdummy: false\n\t\t}},\n\tbody: {content: {type: 'blank'}}\n};\n\ntbiObj._genericWindow = new Object();\n\n\ntbiObj.getCurrentPaneIndex = function() {\n\treturn tbiObj._tbObj._curTabIndx;\n}\n\ntbiObj.getCurrentPaneName = function() {\n\treturn tbiObj._tbObj._items[tbiObj._tbObj._curTabIndx].name;\n}\n\ntbiObj.getCurrentPaneLabel = function() {\n\treturn tbiObj._tbObj._items[tbiObj._tbObj._curTabIndx].html;\n}\n\n\ntbiObj.selectPaneByIndex = function(index) {\n\ttbiObj._tbObj.select(index);\n}\n\n\ntbiObj.createWindow =  function(name,settings) {\n\tif(!this.getWindow(name)) {\n\t\tif(typeof settings == 'string') {\n\t\t\tvar parts = settings.split('-');\n\t\t\tsettings = new Object();\n\t\t\t$u.o.assign(settings , this._defaultWindowSettings[parts.shift()]);\n\t\t\tfor(var i=0;i<parts.length;i++){\n\t\t\t\tif(parts[i] == 'url'){\n\t\t\t\t\tsettings.body.content.type = 'url';\n\t\t\t\t\tsettings.body.content.url = 'about:blank';\n\t\t\t\t} else if(parts[i] == 'resizable'){\n\t\t\t\t\tsettings.resize = 'both';\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tif(typeof arguments[2] == 'object') $u.o.assign(settings,arguments[2]);\n\t\tthis._genericWindow[name] = new A5.Window(settings);\n\t}\n\treturn this._genericWindow[name];\n}\n\ntbiObj.getWindow =  function(name) {\n\tif(typeof this._genericWindow[name] != 'undefined' ) return this._genericWindow[name];\n\treturn false;\n}\n\n\n\ntbiObj.ajaxCallback = function(xbasicFunction,data) {\n\tvar callbackURL = tbiObj.ajaxURL;\n\tvar data2 = '_callbackType=genericAjaxCallback&_xbasicFunction=' + xbasicFunction + '&' + data;\n\tA5.ajax.callback(callbackURL,data2);\n}\n\ntbiObj._timeToSessionTimeout = function(units) {\n\tif(isNaN($a.lastCallback)) return 9999999999999999;\n\tvar t = (Date.now() - $a.lastCallback);\n\tvar tte = (tbiObj._sessionTimeoutInMSeconds - t);\n\tif(units == 's') return (tte/1000);\n\tif(units == 'm') return (tte/60000);\n\tif(units == 'ms') return (tte);\n\treturn tte\n}\n\n\n\ntbiObj._executeEvent = function(eventName) {\n\tvar result = true;\n\tvar targs = new Array();\n\tfor(var i = 1; i < arguments.length; i++) targs.push(arguments[i]);\n\tvar tresult = false;\n\tif(typeof this[eventName] != 'undefined'  ) {\n\n\t\tif(this[eventName].constructor == Function) {\n\t\t\ttresult = this[eventName].apply(this,targs);\n\t\t\tif(typeof tresult == 'boolean') result = tresult;\n\t\t}\n\t}\n\tif(typeof this['_' +eventName] != 'undefined' ) {\n\t\tif(this['_'+eventName].constructor == Function) {\n\t\t\ttresult = this['_'+eventName].apply(this,targs);\n\t\t\tif(typeof tresult == 'boolean') result = result && tresult;\n\t\t}\n\n\t}\n\treturn result;\n}\n\n\n\n\n\ntbiObj._hideAnimationSpeed = 600;\ntbiObj._showAnimationSpeed = 600;;\n;\n;\n\nA5.msgBox.theme = '{grid.style}';;\n//systemOnRenderComplete\ntbiObj._executeEvent('onRenderComplete',{});",
+            "expandingMenuJS": "",
+            "TabbedUIMasterTemplate": "<iframe style=\"display:none;\" id=\"TBIOBJ.__IFRAME1\"></iframe>\n<input type=\"hidden\" value=\"{parameterBucket}\" id=\"{alias}.PARAMETERBUCKET\"/>\n<input type=\"hidden\" value=\"{savedArgValues}\" id=\"{alias}.ARGUMENTVALUES\"/>\n\n\n<div class=\"[theme:tabbedUI.base.headerClassName]\" style=\"overflow:hidden;\">\n{tabbedUI.header}\n</div>\n<table\n\tid=\"{tabbedUI.alias}\"\n\tclass=\"[class.tabbedUI]\"\n\tcellpadding=\"0\"\n\tcellspacing=\"0\"\n\tstyle=\"table-layout: fixed; width: 100%; border-left: none; border-right: none;\">\n\t<tr>\n\t\t<td \tid=\"{tabbedUI.alias}.EXPANDBAR\"\n\t\t\t\tclass=\"[theme:tabbedUI.base.menu.left.collapsedClassName|class.tabbedUIMenuCollapsed] \"\n\t\t\t\tstyle=\"display:none; width: [theme:tabbedUI.base.menu.left.collapsedSize|'20px'];\"\n\t\t\t\tvalign=\"top\"\n\t\t\t\tonclick=\"tbiObj.showTabbedUIMenuPanel();\"\n\t\t\t\t>\n\t\t\t\t<img id=\"{tabbedUI.alias}.EXPANDBAR_IMAGE\" src=\"***leftExpand***\" style=\"cursor:pointer;\"/>\n\n\t\t</td>\n\t\t<td \tid=\"{tabbedUI.alias}.MENUPANEL\"\n\t\t\t\tclass=\"[theme:tabbedUI.base.menu.left.className|class.tabbedUIMenuPanel] \"\n\t\t\t\tstyle=\"{tabbedUI.buttonsPaneStyle}; ;\"\n\t\t\t\tvAlign=\"top\"><!--TD for the Buttons Pane (which contains the action buttons)-->\n\t\t\t<div id=\"{tabbedUI.alias}.MENUPANEL_HEADER\" class=\"[theme:tabbedUI.base.menu.left.headerClassName|class.TabbedUIMenuPanelHeader] \" style=\"\">\n\t\t\t\t<table cellspacing=\"0\" cellpadding=\"0\">\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td\t\tid=\"{tabbedUI.alias}.MENUPANEL_EMPTYCELL\"\n\t\t\t\t\t\t\t\tstyle=\"width: 100%;\">\n\t\t\t\t\t\t&nbsp;\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<img src=\"***leftCollapse***\" id=\"{tabbedUI.alias}.MENUPANEL_IMAGE\" style=\"cursor:pointer;\" onclick=\"tbiObj.hideTabbedUIMenuPanel()\" />\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div \tid=\"{tabbedUI.alias}.MENU\"\n\t\t\t\t\tclass=\"\"\n\t\t\t\t\tstyle=\"{tabbedUI.buttonsPadding}\">\n\t\t\t\t\t\n\n\n\t\t\t\t{tabbedUI.buttonsPane}\n\t\t\t</div>\n\t\t</td><!--End TD for Buttons Pane-->\n\t\t<td id=\"{tabbedUI.alias}.DIVIDER\" class=\"[theme:tabbedUI.base.menu.left.separatorClassName|class.tabbedUIDivider]\" style=\"width: 4px; font: 0pt Arial;padding: 0px;\">\n\t\t\t&nbsp;\n\t\t</td>\n\t\t<td \tclass=\"[theme:tabbedUI.base.bodyClassName|class.tabbedUIPanel]\"\n\t\t\t\tid=\"{tabbedUI.alias}.CONTENTPANEL\"\n\t\t\t\tvAlign=\"top\"\n\t\t\t\tstyle=\"padding: 0px; \">\n\t\t\t<div \tid=\"{tabbedUI.alias}.TABBAND\"\n\t\t\t\t\tstyle=\"border-top: none; border-left: none; border-right: none;\">\n\t\t\t</div>\n\t\t\t<div id=\"{tabbedUI.alias}.PANES\" style=\"position:relative;\">\n\t\t\t</div>\n\t\t</td>\n\t</tr>\n</table>\n<div class=\"[theme:tabbedUI.base.footerClassName]\" style=\"overflow:hidden;\">\n{tabbedUI.footer}\n</div>\n"
+        },
+        "componentType": "TabbedUI",
+        "version": 1,
+        "alias": "tbi",
+        "linkedResources": "",
+        "A5SaveTimeStamp": "20190116121914490",
+        "minimumBuildNumber": "",
+        "style_color_palette": "",
+        "showPulseEffect": true,
+        "__LPhostName": "Chrome",
+        "_style_isInherited": false,
+        "headerHTML": "<h1>Newmont System</h1>",
+        "footerHTML": "Newmont Corp",
+        "buttonPanel": {
+            "Location": "Left",
+            "Style": "width: 2.5in;",
+            "paddingLeft": ".25in",
+            "paddingRight": "",
+            "paddingTop": ".25in",
+            "setPaddingOffIfHasTree": true
+        },
+        "homePage": {
+            "TabTitle": "Home",
+            "HTML": "Specify the HTML for the Home page.",
+            "source": "Local",
+            "autoRefresh": false,
+            "URL": ""
+        },
+        "ContainerA5WPageName": "<Default>",
+        "NavigateAwayMessageDirty": "{pane.title} contains unsaved data.",
+        "NavigateAwayMessageClean": "",
+        "promptWhenUserNavigatesFromTabbedUIPage": true,
+        "canCollapseButtonPane": true,
+        "buttonPaneInitialState": "Open",
+        "nocriptContent": "",
+        "closeTabImage": "<Default>",
+        "closeTabHoverImage": "<Default>",
+        "scrollTabsPrevImage": "<Default>",
+        "scrollTabsPrevDisabledImage": "<Default>",
+        "scrollTabsNextImage": "<Default>",
+        "scrollTabsNextDisabledImage": "<Default>",
+        "collapseButtonPanelLeft": "<Specified by Style>",
+        "collapseButtonPanelRight": "<Specified by Style>",
+        "expandButtonPanelLeft": "<Specified by Style>",
+        "expandButtonPanelRight": "<Specified by Style>",
+        "classNameTabBand": "<Default>",
+        "classNameTabBandSeparator": "<Default>",
+        "classNameTabOff": "<Default>",
+        "classNameTabOn": "<Default>",
+        "classNameTabDisabled": "<Default>",
+        "classNameTabBandLeftScroll": "<Default>",
+        "classNameTabBandRightScroll": "<Default>",
+        "classNameTabBandLeftScrollDisabled": "<Default>",
+        "classNameTabBandRightScrollDisabled": "<Default>",
+        "userDefinedHeadContent": "",
+        "noscriptcontent": "",
+        "JavascriptToRunOnStartup": "",
+        "MasterTemplate": "",
+        "componentWidth": "800px",
+        "componentBorderClassName": "{tabbedUI.style}Edit",
+        "componentBorderInlineStyle": "padding: 0px;",
+        "animateShowHideButtons": true,
+        "animate": {
+            "Hide": {
+                "speed": "Slow"
+            },
+            "Show": {
+                "speed": "Slow"
+            }
+        },
+        "hideTabbedUIElements": false,
+        "layout": {
+            "hideTabButtons": false,
+            "layoutMode": "DesktopBrowser",
+            "MobileModeMenuButtonText": "Menu",
+            "mobileDisplayHomePage": false,
+            "MobileMenuTitle": "Menu"
+        },
+        "hasSearchFeature": false,
+        "searchLabel": "Search",
+        "searchFieldWatermark": "Enter search string",
+        "searchResultsClass": "",
+        "searchPartClass": "",
+        "searchInputClass": "",
+        "nosearchResults": "No results found",
+        "searchResultsButtonClass": "",
+        "minimumHeight": 0,
+        "defaultView": "DesktopBrowser",
+        "autoHideButtonPanel": false,
+        "autoHideDelay": 500,
+        "hideButtonPanePermanenly": false,
+        "legacyThemeJS": "A5.themes.add('{tabbedUI.style}',{\n\ttabBand: {\n\t\tbase: {\n\t\t\tclassName: '{grid.style}FormTABLE {grid.style}ColumnTD A5TabBand',\n\t\t\tseparator:{\n\t\t\t\tclassName: '{grid.style}DataTD A5TabBandSeparator'\n\t\t\t},\n\t\t\ttab: {\n\t\t\t\tclassName: '{grid.style}FormTABLE {grid.style}AltDataTD A5TabBandTabOff',\n\t\t\t\tselectedClassName: '{grid.style}FormTABLE {grid.style}DataTD A5TabBandTabOn',\n\t\t\t\tdisabledClassName: '{grid.style}FormTABLE {grid.style}AltDataTD A5TabBandTabDisabled',\n\t\t\t\tcloseIcon: 'css/A5System/Images/tabclose.png',\n\t\t\t\tcloseIconHover: 'css/A5System/Images/tabcloseHover.png'\n\t\t\t},\n\t\t\tscrollButtons: {\n\t\t\t\tprevClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandLeftScroll',\n\t\t\t\tprevDisabledClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandLeftScroll',\n\t\t\t\tprevImage: 'css/{grid.style}/PrevOn.png',\n\t\t\t\tprevDisabledImage: 'css/{grid.style}/PrevOff.png',\n\t\t\t\tnextClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandRightScroll',\n\t\t\t\tnextDisabledClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandRightScroll',\n\t\t\t\tnextImage: 'css/{grid.style}/NextOn.png',\n\t\t\t\tnextDisabledImage: 'css/{grid.style}/NextOff.png'\n\t\t\t}\n\t\t}\n\t}\n});\n",
+        "cssTabbedUICustomizeCSSJSON": "",
+        "searchResultsButtonStyle": ""
+    }
+}

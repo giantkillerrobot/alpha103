@@ -1,0 +1,1412 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "builderType": "Dialog2",
+        "info": {
+            "createdBy": "mac",
+            "dateCreated": "2019-1-15",
+            "dateLastEdited": "2019-1-15"
+        },
+        "guid": "1c370e5e-7a7c-4749-9393-cd1d7f4a6f25",
+        "style_name": "Alpha-Bluegrey",
+        "componentName": "TABBED_UX",
+        "componentFilename": "C:\\Users\\mac\\Documents\\AlphaAnywhere V12\\alpha103\\alpha103.WebProjects\\Default.WebProject\\tabbed_ux.a5wcmp",
+        "page_fields": [
+            {
+                "controltype": "layout_directive_PanelLayoutBegin",
+                "display": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=4a3ad24b-3e85-4049-bdd0-e68ef974067b}{I:'$$web.panel.layout'} [Panel Layout: PANELLAYOUT_1]  (H,F) (LTR)",
+                "displayODFlat": "{Data=4a3ad24b-3e85-4049-bdd0-e68ef974067b}{I:'$$web.panel.layout'} [Panel Layout: PANELLAYOUT_1]",
+                "displayOD": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=4a3ad24b-3e85-4049-bdd0-e68ef974067b}{I:'$$web.panel.layout'} [Panel Layout: PANELLAYOUT_1]",
+                "displayODtree": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=4a3ad24b-3e85-4049-bdd0-e68ef974067b}{I:'$$web.panel.layout'} [Panel Layout: PANELLAYOUT_1]  (H,F) (LTR)",
+                "idInternal": "4a3ad24b-3e85-4049-bdd0-e68ef974067b",
+                "lastIndex": 20,
+                "parentContainer": -1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 0,
+                "v": {
+                    "container": {
+                        "id": "PANELLAYOUT_1"
+                    },
+                    "panelInstance": {
+                        "HeaderScrolling": {
+                            "axis": "Both"
+                        },
+                        "FooterScrolling": {
+                            "axis": "Both"
+                        },
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelLayout": {
+                        "flow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "javascript": {
+                            "onPanelView": "",
+                            "_onsize": "if(typeof {dialog.object} != 'undefined') {\n\tif(typeof {dialog.object}._findActiveLayoutRule != 'undefined') { \n\t\t{dialog.object}._findActiveLayoutRule();\n\t\t//alert('system on size');\n\t}\n}\n"
+                        },
+                        "dock": {
+                            "method": "Over",
+                            "flowLock": {
+                                "has": true
+                            }
+                        }
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294909396"
+            },
+            {
+                "controltype": "layout_directive_ContainerBegin",
+                "idInternal": "63cef233-4193-46c4-96ad-e69b6827fcd6",
+                "shortControlType": "CONTAINERBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Container Begin]",
+                    "controltype": "layout_directive_ContainerBegin",
+                    "icon": "$$format.border.style.dash"
+                },
+                "lastIndex": 4,
+                "displayODFlat": "{Data=63cef233-4193-46c4-96ad-e69b6827fcd6}{I:'$$format.border.style.dash'}[Container Begin]",
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=63cef233-4193-46c4-96ad-e69b6827fcd6}{I:'$$format.border.style.dash'}[Container Begin]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=63cef233-4193-46c4-96ad-e69b6827fcd6}{I:'$$web.panel.header'} [PanelHeader: CONTAINER_1]",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=63cef233-4193-46c4-96ad-e69b6827fcd6}{I:'$$web.panel.header'} [PanelHeader: CONTAINER_1]",
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "ID": "CONTAINER_1",
+                        "contentAlignment": "Left",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "PanelHeader",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                },
+                "crc": "4294956157"
+            },
+            {
+                "controltype": "layout_directive_ControlBar",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=62551208-5e9e-4c49-a837-8e29586818c2}{I:'$$window.toolbar'} [ControlBar:CONTROLBAR_1] �",
+                "displayODFlat": "{Data=62551208-5e9e-4c49-a837-8e29586818c2}{I:'$$window.toolbar'} [ControlBar]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=62551208-5e9e-4c49-a837-8e29586818c2}{I:'$$window.toolbar'} [ControlBar:CONTROLBAR_1]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=62551208-5e9e-4c49-a837-8e29586818c2}{I:'$$window.toolbar'} [ControlBar:CONTROLBAR_1] �",
+                "idInternal": "62551208-5e9e-4c49-a837-8e29586818c2",
+                "parentContainer": 2,
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\"   id=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTROLBAR_1\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294932072",
+                "v": {
+                    "comment": "",
+                    "_dirty": false,
+                    "id": "CONTROLBAR_1",
+                    "ControlBar": {
+                        "definitionJSON": "{\n\t\"cb\": {\n\t\t\"actions\": [\n\t\t{\n\t\t\t\"name\": \"Action1\",\n\t\t\t\"javascript\": \"\\n{grid.object}.runAction('CustomerGrid');\\n\",\n\t\t\t\"editorstatejson\": \"{\\n\\t\\\"start\\\": 547,\\n\\t\\\"end\\\": 547\\n}\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Action2\",\n\t\t\t\"javascript\": \"alert('You selected action2');\\n\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Action3\",\n\t\t\t\"javascript\": \"\\nalert('You selected action3');\\n\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Action4\",\n\t\t\t\"javascript\": \"\\nalert('You selected action4');\\n\",\n\t\t\t\"editorstatejson\": \"{\\n\\t\\\"start\\\": 1,\\n\\t\\\"end\\\": 1\\n}\"\n\t\t}],\n\t\t\"items\": [\n\t\t{\n\t\t\t\"name\": \"Html1\",\n\t\t\t\"itemType\": \"html\",\n\t\t\t\"item\": {\n\t\t\t\t\"html\": {\n\t\t\t\t\t\"html\": \"MyApp\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"itemAction\": {\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Menu\",\n\t\t\t\"itemType\": \"disclosure-button\",\n\t\t\t\"itemAction\": {\n\t\t\t},\n\t\t\t\"item\": {\n\t\t\t\t\"disclosure\": {\n\t\t\t\t\t\"name\": \"layout:menuLayout\",\n\t\t\t\t\t\"type\": \"outside-before\",\n\t\t\t\t\t\"size\": \"none\",\n\t\t\t\t\t\"flagAnimate\": true,\n\t\t\t\t\t\"animation\": {\n\t\t\t\t\t\t\"duration\": \"200\",\n\t\t\t\t\t\t\"tween\": \"ease-in-out\"\n\t\t\t\t\t},\n\t\t\t\t\t\"autoHide\": true,\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"rectangle\": {\n\t\t\t\t\t\t\"left\": \"100\",\n\t\t\t\t\t\t\"right\": \"100\",\n\t\t\t\t\t\t\"top\": \"100\",\n\t\t\t\t\t\t\"bottom\": \"100\",\n\t\t\t\t\t\t\"edge\": \"top\",\n\t\t\t\t\t\t\"fill\": \"width\",\n\t\t\t\t\t\t\"method\": \"SpecifyNow\"\n\t\t\t\t\t},\n\t\t\t\t\t\"show\": {\n\t\t\t\t\t\t\"layout\": \"Image only\",\n\t\t\t\t\t\t\"icon\": \"svgIcon=#alpha-icon-bars:icon,24\",\n\t\t\t\t\t\t\"html\": \"Button\",\n\t\t\t\t\t\t\"hasCustomHideButton\": false\n\t\t\t\t\t},\n\t\t\t\t\t\"hide\": {\n\t\t\t\t\t\t\"layout\": \"Text only\",\n\t\t\t\t\t\t\"html\": \"Button\"\n\t\t\t\t\t},\n\t\t\t\t\t\"autoHideDisclosure\": \"always\",\n\t\t\t\t\t\"margin\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Menu1\",\n\t\t\t\"itemType\": \"button\",\n\t\t\t\"itemAction\": {\n\t\t\t\t\"click\": \"Action1\"\n\t\t\t},\n\t\t\t\"item\": {\n\t\t\t\t\"button\": {\n\t\t\t\t\t\"specialType\": \"None\",\n\t\t\t\t\t\"special\": {\n\t\t\t\t\t\t\"setActivePanel\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\t\"layout\": \"Image followed by text\",\n\t\t\t\t\t\"icon\": \"svgIcon=#alpha-icon-personEdit:icon,24\",\n\t\t\t\t\t\"html\": \"Menu 1\",\n\t\t\t\t\t\"autoHideDisclosure\": \"auto\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Menu2\",\n\t\t\t\"itemType\": \"button\",\n\t\t\t\"itemAction\": {\n\t\t\t\t\"click\": \"Action2\"\n\t\t\t},\n\t\t\t\"item\": {\n\t\t\t\t\"button\": {\n\t\t\t\t\t\"specialType\": \"None\",\n\t\t\t\t\t\"special\": {\n\t\t\t\t\t\t\"setActivePanel\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\t\"layout\": \"Image followed by text\",\n\t\t\t\t\t\"icon\": \"svgIcon=#alpha-icon-chartBar:icon,24\",\n\t\t\t\t\t\"html\": \"Menu 2\",\n\t\t\t\t\t\"autoHideDisclosure\": \"auto\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Menu3\",\n\t\t\t\"itemType\": \"button\",\n\t\t\t\"itemAction\": {\n\t\t\t\t\"click\": \"Action3\"\n\t\t\t},\n\t\t\t\"item\": {\n\t\t\t\t\"button\": {\n\t\t\t\t\t\"specialType\": \"None\",\n\t\t\t\t\t\"special\": {\n\t\t\t\t\t\t\"setActivePanel\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\t\"layout\": \"Image followed by text\",\n\t\t\t\t\t\"icon\": \"svgIcon=#alpha-icon-cart:icon,24\",\n\t\t\t\t\t\"html\": \"Menu 3\",\n\t\t\t\t\t\"autoHideDisclosure\": \"auto\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Menu4\",\n\t\t\t\"itemType\": \"button\",\n\t\t\t\"itemAction\": {\n\t\t\t\t\"click\": \"Action4\"\n\t\t\t},\n\t\t\t\"item\": {\n\t\t\t\t\"button\": {\n\t\t\t\t\t\"specialType\": \"None\",\n\t\t\t\t\t\"special\": {\n\t\t\t\t\t\t\"setActivePanel\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\t\"layout\": \"Image followed by text\",\n\t\t\t\t\t\"icon\": \"svgIcon=#alpha-icon-gear:icon,24\",\n\t\t\t\t\t\"html\": \"Menu 4\",\n\t\t\t\t\t\"autoHideDisclosure\": \"auto\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}],\n\t\t\"javascriptLocal\": [],\n\t\t\"data\": [],\n\t\t\"layouts\": [\n\t\t{\n\t\t\t\"name\": \"Layout1\",\n\t\t\t\"lines\": [\n\t\t\t{\n\t\t\t\t\"before\": \"Menu\",\n\t\t\t\t\"middle\": \"Html1\",\n\t\t\t\t\"linetype\": \"Default\"\n\t\t\t}],\n\t\t\t\"default\": false\n\t\t},\n\t\t{\n\t\t\t\"name\": \"menuLayout\",\n\t\t\t\"lines\": [\n\t\t\t{\n\t\t\t\t\"before\": \"Menu1,Menu2,Menu3,Menu4\",\n\t\t\t\t\"linetype\": \"Default\"\n\t\t\t}],\n\t\t\t\"default\": false\n\t\t}],\n\t\t\"disclosures\": [],\n\t\t\"controlBarProperties\": {\n\t\t\t\"edge\": \"top\",\n\t\t\t\"javascript\": {\n\t\t\t},\n\t\t\t\"disclosure\": {\n\t\t\t\t\"animation\": {\n\t\t\t\t\t\"duration\": 300\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"selectActiveLayoutDynamically\": false,\n\t\t\t\"refreshOnContainerResize\": true,\n\t\t\t\"animateRefresh\": false,\n\t\t\t\"animationType\": \"slide-in\",\n\t\t\t\"animationDuration\": \"200\",\n\t\t\t\"animationTween\": \"ease-in-out\",\n\t\t\t\"showSystemCommentsInJavascript\": true\n\t\t}\n\t},\n\t\"_state\": {\n\t\t\"showPane\": {\n\t\t\t\"css\": true,\n\t\t\t\"javascript\": true,\n\t\t\t\"items\": true,\n\t\t\t\"preview\": true\n\t\t},\n\t\t\"selected_action_C\": \"1\\n\",\n\t\t\"selected_item_C\": \"3\\n\",\n\t\t\"selected_layout_C\": \"1\\n\",\n\t\t\"selected_layoutLine_c\": \"1\",\n\t\t\"cssMode\": 1,\n\t\t\"jsMode\": 1,\n\t\t\"mode_items\": \"Filter\",\n\t\t\"mode_actions\": \"Filter\",\n\t\t\"mode_Layouts\": \"Filter\",\n\t\t\"mode_disclosures\": \"Filter\",\n\t\t\"previewSize\": \"433px\",\n\t\t\"tabPage\": \"Items\"\n\t}\n}"
+                    },
+                    "controltype": "ControlBar",
+                    "fillPanelContainer": false,
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "breakHeight2": "",
+                    "breakHorizontalSpace2": "",
+                    "width": "100%",
+                    "height": "",
+                    "style": "",
+                    "controlContainerClass": "",
+                    "controlContainerPreventFloat": false
+                }
+            },
+            {
+                "controltype": "layout_directive_ContainerEnd",
+                "idInternal": "0ac71192-8120-4fe5-94f1-a1d372d6e9f4",
+                "shortControlType": "CONTAINEREND",
+                "p": {
+                    "control": "[Container End]",
+                    "controltype": "layout_directive_ContainerEnd",
+                    "icon": "$$format.border.style.dash",
+                    "lastbutton": "OK"
+                },
+                "displayODFlat": "{Data=0ac71192-8120-4fe5-94f1-a1d372d6e9f4}{I:'$$format.border.style.dash'}[Container End]",
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 2,
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=0ac71192-8120-4fe5-94f1-a1d372d6e9f4}{I:'vertLineCap'}[Container End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=0ac71192-8120-4fe5-94f1-a1d372d6e9f4}{I:'vertLineCap'} [PanelHeader End: CONTAINER_1] �",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=0ac71192-8120-4fe5-94f1-a1d372d6e9f4}{I:'vertLineCap'} [PanelHeader End: CONTAINER_1] �",
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                },
+                "crc": "4294911081"
+            },
+            {
+                "controltype": "layout_directive_ContainerBegin",
+                "idInternal": "476c4de1-cdf6-411c-8fec-1bb7fba42509",
+                "shortControlType": "CONTAINERBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Container Begin]",
+                    "controltype": "layout_directive_ContainerBegin",
+                    "icon": "$$format.border.style.dash"
+                },
+                "lastIndex": 7,
+                "displayODFlat": "{Data=476c4de1-cdf6-411c-8fec-1bb7fba42509}{I:'$$format.border.style.dash'}[Container Begin]",
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_2\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=476c4de1-cdf6-411c-8fec-1bb7fba42509}{I:'$$format.border.style.dash'}[Container Begin]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=476c4de1-cdf6-411c-8fec-1bb7fba42509}{I:'$$web.panel.footer'} [PanelFooter: CONTAINER_2]",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=476c4de1-cdf6-411c-8fec-1bb7fba42509}{I:'$$web.panel.footer'} [PanelFooter: CONTAINER_2]",
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "ID": "CONTAINER_2",
+                        "contentAlignment": "Left",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "PanelFooter",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                },
+                "crc": "4294935604"
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=7590dc57-a0df-4f18-878d-426c1dffe596}{I:'$$format.text'} [Static Text: Footer Here] �",
+                "displayODFlat": "{Data=7590dc57-a0df-4f18-878d-426c1dffe596}{I:'$$format.text'} [Static Text]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=7590dc57-a0df-4f18-878d-426c1dffe596}{I:'$$format.text'} [Static Text]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=7590dc57-a0df-4f18-878d-426c1dffe596}{I:'$$format.text'} [Static Text: Footer Here] �",
+                "idInternal": "7590dc57-a0df-4f18-878d-426c1dffe596",
+                "parentContainer": 5,
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_5\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Footer Here</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294936079",
+                "v": {
+                    "StaticText": "Footer Here",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_5",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_ContainerEnd",
+                "idInternal": "0c5f7934-487e-4548-808f-d4ea1b735ff5",
+                "shortControlType": "CONTAINEREND",
+                "p": {
+                    "control": "[Container End]",
+                    "controltype": "layout_directive_ContainerEnd",
+                    "icon": "$$format.border.style.dash",
+                    "lastbutton": "OK"
+                },
+                "displayODFlat": "{Data=0c5f7934-487e-4548-808f-d4ea1b735ff5}{I:'$$format.border.style.dash'}[Container End]",
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_2.BREAK\"  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 5,
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=0c5f7934-487e-4548-808f-d4ea1b735ff5}{I:'vertLineCap'}[Container End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=0c5f7934-487e-4548-808f-d4ea1b735ff5}{I:'vertLineCap'} [PanelFooter End: CONTAINER_2] �",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=0c5f7934-487e-4548-808f-d4ea1b735ff5}{I:'vertLineCap'} [PanelFooter End: CONTAINER_2] �",
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                },
+                "crc": "4294918331"
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "idInternal": "40888ef3-96f4-406e-ae03-2eff71799379",
+                "shortControlType": "PANELCARDBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Panel Card Begin]",
+                    "controltype": "layout_directive_PanelCardBegin",
+                    "icon": "$$web.panel.card",
+                    "insertBeginTag": true,
+                    "insertClosingTag": false,
+                    "position": "Around"
+                },
+                "lastIndex": 10,
+                "displayODFlat": "{Data=40888ef3-96f4-406e-ae03-2eff71799379}{I:'$$web.panel.card'}[Panel Card Begin]",
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "parentContainer": 1,
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=40888ef3-96f4-406e-ae03-2eff71799379}{I:'$$web.panel.card'}[Panel Card Begin]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=40888ef3-96f4-406e-ae03-2eff71799379}{I:'$$web.panel.card'} [Panel Card: PC_MENU]",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=40888ef3-96f4-406e-ae03-2eff71799379}{I:'$$web.panel.card'} [Panel Card: PC_MENU]",
+                "indentTree": 1,
+                "crc": "4294931542",
+                "v": {
+                    "container": {
+                        "id": "PC_MENU"
+                    },
+                    "panelInstance": {
+                        "layout": {
+                            "size": "10%"
+                        },
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": "",
+                            "_onsize": "\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('MAINMENU'); if(mObj) mObj.refresh();}"
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=574e593c-2a5c-4be7-9c1c-14dfbd9f7fef}{I:'$$window.menu'} [mainmenu] �",
+                "displayODFlat": "{Data=574e593c-2a5c-4be7-9c1c-14dfbd9f7fef}{I:'$$window.menu'} [mainmenu]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=574e593c-2a5c-4be7-9c1c-14dfbd9f7fef}{I:'$$window.menu'} [mainmenu]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=574e593c-2a5c-4be7-9c1c-14dfbd9f7fef}{I:'$$window.menu'} [mainmenu] �",
+                "idInternal": "574e593c-2a5c-4be7-9c1c-14dfbd9f7fef",
+                "repeatingSectionParentId": -1,
+                "crc": "4294919358",
+                "parentContainer": 8,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "indentTree": 2,
+                "v": {
+                    "controlType": "DataBoundCustomControl",
+                    "variableName": "mainmenu",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Mainmenu",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "datePicker": {
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "customControl": {
+                        "height": "",
+                        "width": "4in",
+                        "fillPanelContainer": true,
+                        "definitionJSON": "{\n\tmethodForDefiningMenuData: 'UseGenie',\n\tmenuDataGenieJSON: '{\\n\\t\"tree\": [\\n\\t{\\n\\t\\t\"label\": \"Customer Information\",\\n\\t\\t\"level\": 1,\\n\\t\\t\"isLeaf\": false,\\n\\t\\t\"initialstate\": \"Closed\"\\n\\t},\\n\\t{\\n\\t\\t\"label\": \"Customer Grid\",\\n\\t\\t\"level\": 2,\\n\\t\\t\"isLeaf\": true,\\n\\t\\t\"Icon\": \"\",\\n\\t\\t\"Event\": \"\",\\n\\t\\t\"value\": \"\",\\n\\t\\t\"onClick\": \"{dialog.object}.runAction(\\'CustomerGrid\\');\",\\n\\t\\t\"SecurityGroups\": \"\",\\n\\t\\t\"serverSideShowHideExpn\": \"\",\\n\\t\\t\"targetPanel\": \"\",\\n\\t\\t\"itemType\": \"Item\",\\n\\t\\t\"headingText\": \"\",\\n\\t\\t\"actionName\": \"\",\\n\\t\\t\"clientsideshowhideexpn\": \"\"\\n\\t},\\n\\t{\\n\\t\\t\"label\": \"Directory\",\\n\\t\\t\"level\": 2,\\n\\t\\t\"isLeaf\": true,\\n\\t\\t\"Icon\": \"\",\\n\\t\\t\"Event\": \"\",\\n\\t\\t\"value\": \"\",\\n\\t\\t\"onClick\": \"{dialog.object}.runAction(\\'Directory\\');\",\\n\\t\\t\"SecurityGroups\": \"\",\\n\\t\\t\"serverSideShowHideExpn\": \"\",\\n\\t\\t\"targetPanel\": \"\",\\n\\t\\t\"itemType\": \"Item\",\\n\\t\\t\"headingText\": \"\",\\n\\t\\t\"actionName\": \"\",\\n\\t\\t\"clientsideshowhideexpn\": \"\"\\n\\t}]\\n}',\n\tmenuDataJSON: '',\n\tmenuDataUserSpecifiedJSON: '',\n\tmenuDataXbasic: '',\n\tmenuMasterColor: '#2c2a2a',\n\tbelowMenuBackgrouncolor: '<Same as Menu Color>',\n\ttextColorType: 'Auto',\n\ttextColor: '',\n\tlevelIndent: '24px',\n\tsettings: {\n\t\titem: {\n\t\t\tclassName: 'item',\n\t\t\topened: {\n\t\t\t\tclassName: 'branchItemOpened',\n\t\t\t\ticon: 'svgIcon=#alpha-icon-chevronUp:icon'\n\t\t\t},\n\t\t\tclosed: {\n\t\t\t\tclassName: 'branchItemClosed',\n\t\t\t\ticon: 'svgIcon=#alpha-icon-chevronRight:icon'\n\t\t\t}\n\t\t},\n\t\tbranch: {\n\t\t\tclassName: 'branch'\n\t\t}\n\t},\n\tdelegateScrollingToParentContainer: false,\n\taboveMenuHTML: '',\n\tbelowMenuHTML: '',\n\tcssType: 'BuiltIn',\n\tcustomCSS: '',\n\tsubtype: 'ExpandingMenu',\n\tsettingsJSON: '{\\n\\tinputId: \\'{variablename}\\',\\n\\tvariableName: \\'{variablenameUPPERCASE}\\',\\n\\ttheme: \\'{dialog.style}\\',\\n\\tmultiple: false,\\n\\tseparator: \\'\\\\\\\\n\\',\\n\\tloopNavigate: false,\\n\\tloopNavigateNullSelection: true,\\n\\tallowNullSelection: false,\\n\\tautoRefresh: false,\\n\\tallowNullDeselection: false,\\n\\tallowAnyValue: true,\\n\\tcaptureFocus: false,\\n\\tscroll: {\\n\\t\\taxis: \\'y\\',\\n\\t\\tstopPropogation: false,\\n\\t\\tpull: {\\n\\t\\t\\ty: \\'auto\\'\\n\\t\\t}\\n\\t},\\n\\tlayout: \\'default\\',\\n\\tlayouts: {\\n\\t\\tdefault: {\\n\\t\\t\\ttype: \\'template\\',\\n\\t\\t\\ttemplate: \\'\\\\n{[scope].getTree([root].items,0)}\\\\n{*root}\\\\n{/*root}\\\\n\\\\n\\'\\n\\t\\t}\\n\\t},\\n\\tgetTree: function(data,depth,opened) {\\n\\tif(depth == 0){\\n\\t\\tvar html  = [\\'<div>\\'];\\n\\t} else{\\n\\t\\tvar dis = \\'none\\';\\n\\t\\tif(opened) dis = \\'\\';\\n\\t\\tvar html  = [\\'<div class=\"\\'+this.data.settings.branch.className+\\'\" style=\"display: \\'+dis+\\'; overflow: hidden;\">\\'];\\n\\t}\\n\\tvar iconOpened = this.data.settings.item.opened.icon;\\n\\tvar iconClosed = this.data.settings.item.closed.icon;\\n\\tif(iconOpened) iconOpened = A5.u.icon.html(iconOpened,\\'style=\"float: right\"\\');\\n\\telse iconOpened = \\'\\';\\n\\tif(iconClosed) iconClosed = A5.u.icon.html(iconClosed,\\'style=\"float: right\"\\');\\n\\telse iconClosed = \\'\\';\\n\\tdepth++;\\n\\tvar cn = \\'\\';\\n\\tvar icon = \\'\\';\\n\\tvar itemIcon = \\'\\';\\n\\tvar flagShow;\\n\\tfor(var i = 0; i < data.length; i++) {\\n\\n\\t\\tflagShow = true;\\n\\t\\t\\tif(typeof data[i].showHide != \\'undefined\\') {\\n\\t\\t\\t\\tif(typeof data[i].showHide == \\'function\\') {\\n\\t\\t\\t\\t\\tflagShow = data[i].showHide.call();\\n\\t\\t\\t\\t}\\n\\t\\t};\\n\\t\\tif(flagShow) {\\n\\t\\t\\titemIcon = \\'\\';\\n\\t\\t\\tif(data[i].icon) {\\n\\t\\t\\t\\titemIcon = A5.u.icon.html(data[i].icon) + \\' \\';\\n\\t\\t\\t}\\n\\t\\t\\tif(typeof data[i].children != \\'undefined\\') {\\n\\t\\t\\t\\tcn = this.data.settings.item.className+\\' \\'+this.data.settings.item.closed.className;\\n\\t\\t\\t\\ticon = iconClosed;\\n\\t\\t\\t\\tif(data[i].opened) {\\n\\t\\t\\t\\t\\tcn = this.data.settings.item.className+\\' \\'+this.data.settings.item.opened.className;\\n\\t\\t\\t\\t\\ticon = iconOpened;\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\tif(typeof data[i].action == \\'string\\'){\\n\\t\\t\\t\\t\\thtml.push(\\'<div><div class=\"\\'+cn+\\'\" a5-item=\"toggle:\\'+data[i].action+\\'\" a5-value=\"\\'+data[i].value+\\'\"  >\\' +itemIcon+  data[i].html+icon+\\'</div>\\');\\n\\t\\t\\t\\t} else{\\n\\t\\t\\t\\t\\thtml.push(\\'<div><div class=\"\\'+cn+\\'\" a5-item=\"toggle\" a5-value=\"\\'+data[i].value+\\'\"  >\\' +itemIcon + data[i].html+icon+\\'</div>\\');\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\thtml.push(this.getTree(data[i].children,depth, data[i].opened));\\n\\t\\t\\t} else if(typeof data[i].action == \\'string\\'){\\n\\t\\t\\t\\thtml.push(\\'<div class=\"\\'+this.data.settings.item.className+\\'\" a5-item=\"action:\\'+data[i].action+\\'\" a5-value=\"\\'+data[i].value+\\'\"  >\\' +itemIcon + data[i].html);\\n\\t\\t\\t} else{\\n\\t\\t\\t\\thtml.push(\\'<div class=\"\\'+this.data.settings.item.className+\\'\">\\'+itemIcon + data[i].html);\\n\\t\\t\\t}\\n\\t\\t\\thtml.push(\\'</div>\\');\\n\\t\\t}\\n\\t}\\n\\thtml.push(\\'</div>\\');\\n\\thtml = html.join(\\'\\');\\n\\treturn html;\\n},\\n\\t_onInitialize: function() { $acn(this.contId,\\'{dialog.ComponentName}_\\' + this.variableName+ \\' menuFullScreenBackgroundColor\\');},\\n\\tcollapseMenu: function(value) {\\n\\tvar ele = false;\\n\\tele = this.getElement(value);\\n\\tif(ele) {\\n\\t\\tthis.items.toggle.onClick.call(this,\\'\\',\\'\\',{},ele[0])\\n\\t}\\n}\\n,\\n\\tonChange: function() {\\n\\n\\tvar ele = this.getElement(this.value[0]);\\n\\tif(ele ) {\\n\\t\\tif(ele[0]) {\\n\\t\\t\\tvar pEle = ele[0].parentNode;\\n\\t\\t\\tvar tEle = $(this.contId);\\n\\t\\t\\tvar iEle = null;\\n\\t\\t\\tvar item = \\'\\';\\n\\t\\t\\tvar ptEle = null;\\n\\t\\t\\twhile(pEle != tEle) {\\n\\t\\t\\t\\tptEle = pEle.parentNode;\\n\\t\\t\\t\\tif(pEle.style.display == \\'none\\') {\\n\\t\\t\\t\\t\\tiEle = ptEle.children[0];\\n\\t\\t\\t\\t\\titem = iEle.getAttribute(\\'a5-item\\');\\n\\t\\t\\t\\t\\tif(typeof item == \\'string\\') {\\n\\t\\t\\t\\t\\t\\tif(item.indexOf(\\'toggle\\') == 0) {\\n\\t\\t\\t\\t\\t\\t\\titem = item.split(\\':\\');\\n\\t\\t\\t\\t\\t\\t\\titem.shift();\\n\\t\\t\\t\\t\\t\\t\\titem = item.join(\\':\\');\\n\\t\\t\\t\\t\\t\\t\\tthis.items.toggle.onClick.call(this,false,item,null,iEle,null);\\n\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\tpEle = ptEle;\\n\\n\\t\\t\\t};\\n\\t\\t}\\n\\t};\\n\\n\\n}\\n,\\n\\titems: {\\n\\t\\t\\'toggle\\' : {\\n\\t\\t\\titemName: \\'toggle\\',\\n\\t\\t\\tselectable: true,\\n\\t\\t\\tonClick: function(v,ia,i,ele) {\\n\\t\\t\\t\\tia = ia.split(\\':\\');\\n\\t\\t\\t\\taction = this.data.actions[ia.shift()];\\n\\t\\t\\t\\tif(typeof action == \\'function\\' && v !== false){\\n\\t\\t\\t\\t\\tia = ia.join(\\':\\');\\n\\t\\t\\t\\t\\tvar r = action.call(this,ia,v,i,ele);\\n\\t\\t\\t\\t\\tif(typeof r != \\'undefined\\' && !r) return false;\\n\\t\\t\\t\\t}\\n\\n\\t\\t\\t\\tvar nEle = ele.nextSibling;\\n\\t\\t\\t\\tif(nEle.style.display == \\'none\\'){\\n\\t\\t\\t\\t\\tnEle.style.display = \\'\\';\\n\\t\\t\\t\\t\\tA5.u.element.transition(nEle,{\\n\\t\\t\\t\\t\\t\\tfrom: {height: \\'0px\\'},\\n\\t\\t\\t\\t\\t\\tto: {height: nEle.offsetHeight+\\'px\\'},\\n\\t\\t\\t\\t\\t\\tduration: 600\\n\\t\\t\\t\\t\\t}, function(){\\n\\t\\t\\t\\t\\t\\tthis.style.height = \\'\\';\\n\\t\\t\\t\\t\\t});\\n\\t\\t\\t\\t\\tele.className = this.data.settings.item.className+\\' \\'+this.data.settings.item.opened.className;\\n\\t\\t\\t\\t\\tvar icon = this.data.settings.item.opened.icon;\\n\\t\\t\\t\\t\\tif(icon) A5.u.icon.update(ele.lastChild,icon);\\n\\t\\t\\t\\t} else{\\n\\t\\t\\t\\t\\tA5.u.element.transition(nEle,{\\n\\t\\t\\t\\t\\t\\tfrom: {height: nEle.offsetHeight+\\'px\\'},\\n\\t\\t\\t\\t\\t\\tto: {height: \\'0px\\'},\\n\\t\\t\\t\\t\\t\\tduration: 600\\n\\t\\t\\t\\t\\t}, function(){\\n\\t\\t\\t\\t\\t\\tthis.style.display = \\'none\\';\\n\\t\\t\\t\\t\\t\\tthis.style.height = \\'\\';\\n\\t\\t\\t\\t\\t});\\n\\t\\t\\t\\t\\tele.className = this.data.settings.item.className+\\' \\'+this.data.settings.item.closed.className;\\n\\t\\t\\t\\t\\tvar icon = this.data.settings.item.closed.icon;\\n\\t\\t\\t\\t\\tif(icon) A5.u.icon.update(ele.lastChild,icon);\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\n\\t\\t},\\n\\t\\t\\'action\\' : {\\n\\t\\t\\titemName: \\'action\\',\\n\\t\\t\\tselectable: true,\\n\\t\\t\\tonClick: function(v,ia,i,ele) {\\n\\t\\t\\t\\tia = ia.split(\\':\\');\\n\\t\\taction = this.data.actions[ia.shift()];\\n\\t\\tif(typeof action == \\'function\\'){\\n\\t\\t\\tia = ia.join(\\':\\');\\n\\t\\t\\taction.call(this,ia,v,i,ele);\\n\\t\\t}\\n\\t\\t\\t}\\n\\n\\t\\t}\\n\\n\\t\\t}\\n\\n}',\n\tdataJSON: '{\\n\\t\"items\": [\\n\\t{\\n\\t\\t\"html\": \"Customer Information\",\\n\\t\\t\"action\": \"action1\",\\n\\t\\t\"children\": [\\n\\t\\t{\\n\\t\\t\\t\"html\": \"Customer Grid\",\\n\\t\\t\\t\"action\": \"action2\"\\n\\t\\t},\\n\\t\\t{\\n\\t\\t\\t\"html\": \"Directory\",\\n\\t\\t\\t\"action\": \"action3\"\\n\\t\\t}]\\n\\t}],\\n\\t\"actions\": {\\n\\t\\t\"action2\": function(arg) { {dialog.object}.runAction(\\'CustomerGrid\\');},\\n\\t\\t\"action3\": function(arg) { {dialog.object}.runAction(\\'Directory\\');}\\n\\t},\\n\\t\"settings\": {\\n\\t\\t\"item\": {\\n\\t\\t\\t\"className\": \"item\",\\n\\t\\t\\t\"opened\": {\\n\\t\\t\\t\\t\"className\": \"branchItemOpened\",\\n\\t\\t\\t\\t\"icon\": \"svgIcon=#alpha-icon-chevronUp:icon\"\\n\\t\\t\\t},\\n\\t\\t\\t\"closed\": {\\n\\t\\t\\t\\t\"className\": \"branchItemClosed\",\\n\\t\\t\\t\\t\"icon\": \"svgIcon=#alpha-icon-chevronRight:icon\"\\n\\t\\t\\t}\\n\\t\\t},\\n\\t\\t\"branch\": {\\n\\t\\t\\t\"className\": \"branch\"\\n\\t\\t}\\n\\t}\\n}',\n\tcss: '@function makeColorSafe($foreColor,$backColor) {\\n    $f-h: hue($foreColor);\\n    $f-s: saturation($foreColor);\\n    $f-l: lightness($foreColor);\\n    $b-h: hue($backColor);\\n    $b-s: saturation($backColor);\\n    $b-l: lightness($backColor);\\n    $d-h: abs( $f-h - $b-h );\\n    $d-s: abs( $f-s - $b-s );\\n    $d-l: abs( $f-l - $b-l );\\n    @if $d-h < 15deg {\\n        @if $d-l < 60% {\\n            $n-l: if( $b-l > 50%, $b-l - 60%, $b-l + 60% );\\n            $n-s: if( $d-s > 20%, $f-s, if( $b-s > 75% , $f-s - 20%, $f-s + 20% ));\\n            @return change-color( $foreColor , $lightness: $n-l , $saturation: $n-s )\\n        }\\n    } @else {\\n        @if $d-l < 50% and $d-s < 50% {\\n            $n-l: if( $b-l > 55%, $b-l - 50%, $b-l + 50% );\\n            @return change-color( $foreColor , $lightness: $n-l )\\n        }\\n    }\\n    @return $foreColor\\n}\\n\\n\\n\\n\\n\\n\\n\\n$color: #2c2a2a; //this sets the color of the menu tree. the PanelCard that contains this ViewBox has its background color set to the same value\\n$colorHover: lighten($color,5);\\n$colorBranch: lighten($color,10);\\n$colorBranchHover: lighten($color,15);\\n$foreColor: makeColorSafe(#000,$color);\\n$indent: 24px;\\n\\n.item .icon {\\n    fill: $foreColor;\\n    stroke: $foreColor;\\n}\\n\\n.item {\\n\\tposition: relative;\\n\\tpadding: 6px 12px;\\n\\tbackground: $color;\\n\\tcursor: pointer;\\n\\tline-height: 26px;\\n\\tcolor: $foreColor;\\n}\\n\\n.item:hover {\\n\\tbackground: $colorHover;\\n}\\n.branch .item {\\n\\tpadding-left: $indent;\\n\\tbackground: transparent;\\n}\\n.branch .item:hover {\\n\\tbackground: $colorBranchHover;\\n}\\n.branch {\\n\\tbackground: $colorBranch;\\n}\\n.branch .branch .item {\\n\\tpadding-left: $indent*2;\\n}\\n.branch .branch .branch .item {\\n\\tpadding-left: $indent*3;\\n}\\n.branch .branch .branch .branch .item {\\n\\tpadding-left: $indent*4;\\n}\\n.branch .branch .branch .branch .branch .item {\\n\\tpadding-left: $indent*5;\\n}\\n\\n\\n&.menuFullScreenBackgroundColor  {\\n\\tbackground-color:#2c2a2a;\\n}\\n\\n\\n',\n\tjavascript: ';',\n\tmethodForDefiningControl: 'Specify Now'\n}",
+                        "subtype": "ExpandingMenu",
+                        "class": "",
+                        "style": ""
+                    },
+                    "displayAsSlider": false,
+                    "listView": {
+                        "class": ""
+                    },
+                    "precalc": {
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_dataBoundCustomControlData": "{dialog.object}._dataBoundCustomControlData['MAINMENU'] = [[dialog.dataBoundCustomControlData.mainmenu]]; ",
+                        "javascript_dataBoundCustomControlSettings": "{dialog.object}._dataBoundCustomControlSettings['MAINMENU'] = [[dialog.dataBoundCustomControlSettings.mainmenu]]; ",
+                        "javascript_dataBoundCustomControl": "{dialog.object}._controls['MAINMENU'] =  { type: 'dataBoundCustomControl',  data: {dialog.object}._dataBoundCustomControlData['MAINMENU'],  onInitialize: function() { if(this._onInitialize) {this._onInitialize();} },  settings: {dialog.object}._dataBoundCustomControlSettings['MAINMENU'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.MAINMENU\" for=\"{grid.componentname}.V.R{grid.rownumber}.MAINMENU\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Mainmenu</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.MAINMENU\" name=\"V.R{grid.rownumber}.MAINMENU\" /><!--JSControlEnd-->\n<div >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.MAINMENU.CONTROL\"  class=\"{grid.componentName}_MAINMENU\" style=\"overflow: auto; width: 100%; \"></div>\n</div>\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'MAINMENU': {info: {controlType: 'DataBoundCustomControl'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "idInternal": "89102cb9-06f7-4fb1-9310-0ff7efc23e14",
+                "shortControlType": "PANELCARDEND",
+                "p": {
+                    "control": "[Panel Card End]",
+                    "controltype": "layout_directive_PanelCardEnd",
+                    "icon": "vertlinecap",
+                    "lastbutton": "OK"
+                },
+                "displayODFlat": "{Data=89102cb9-06f7-4fb1-9310-0ff7efc23e14}{I:'vertlinecap'}[Panel Card End]",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 8,
+                "parentContainer": 1,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=89102cb9-06f7-4fb1-9310-0ff7efc23e14}{I:'vertlinecap'}[Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=89102cb9-06f7-4fb1-9310-0ff7efc23e14}{I:'vertLineCap'} [Panel Card End: PC_MENU]",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=89102cb9-06f7-4fb1-9310-0ff7efc23e14}{I:'vertLineCap'} [Panel Card End: PC_MENU]",
+                "indentTree": 1,
+                "crc": "4294917205"
+            },
+            {
+                "controltype": "layout_directive_PanelNavigatorBegin",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{I:'vertLine'}{Data=81b09575-c8e8-481b-9377-22517f66de29}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1] (TabBand) (LTR)",
+                "displayODFlat": "{Data=81b09575-c8e8-481b-9377-22517f66de29}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]",
+                "displayOD": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{I:'vertLine'}{Data=81b09575-c8e8-481b-9377-22517f66de29}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]",
+                "displayODtree": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{I:'vertLine'}{Data=81b09575-c8e8-481b-9377-22517f66de29}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1] (TabBand) (LTR)",
+                "idInternal": "81b09575-c8e8-481b-9377-22517f66de29",
+                "lastIndex": 16,
+                "parentContainer": 1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294956818",
+                "v": {
+                    "container": {
+                        "id": "PANELNAVIGATOR_1"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelNavigator": {
+                        "navigatorType": "TabBand",
+                        "navigatorFlow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "javascript": {
+                            "onPanelView": ""
+                        },
+                        "indicator": {
+                            "location": "Auto"
+                        },
+                        "tabBand": {
+                            "location": "Top"
+                        }
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{I:'vertLine'}{Data=c0b6d0ae-2fbe-4815-97ab-40ce61ea7582}{I:'$$web.panel.card'} [Panel Card: PC_MAIN]",
+                "displayODFlat": "{Data=c0b6d0ae-2fbe-4815-97ab-40ce61ea7582}{I:'$$web.panel.Card'} [Panel Card: PANELCARD_2]",
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{I:'vertLine'}{Data=c0b6d0ae-2fbe-4815-97ab-40ce61ea7582}{I:'$$web.panel.Card'} [Panel Card: PANELCARD_2]",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{I:'vertLine'}{Data=c0b6d0ae-2fbe-4815-97ab-40ce61ea7582}{I:'$$web.panel.card'} [Panel Card: PC_MAIN]",
+                "idInternal": "c0b6d0ae-2fbe-4815-97ab-40ce61ea7582",
+                "lastIndex": 15,
+                "parentContainer": 11,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294952689",
+                "v": {
+                    "container": {
+                        "id": "PC_MAIN"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{I:'vertLine'}{Data=1dc8606b-af88-4b2f-8268-04e3144b4a0c}{I:'$$format.text'} [Static Text: Welcome to newmont!] �",
+                "displayODFlat": "{Data=1dc8606b-af88-4b2f-8268-04e3144b4a0c}{I:'$$format.text'} [Static Text]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{I:'vertLine'}{Data=1dc8606b-af88-4b2f-8268-04e3144b4a0c}{I:'$$format.text'} [Static Text]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{I:'vertLine'}{Data=1dc8606b-af88-4b2f-8268-04e3144b4a0c}{I:'$$format.text'} [Static Text: Welcome to newmont!] �",
+                "idInternal": "1dc8606b-af88-4b2f-8268-04e3144b4a0c",
+                "parentContainer": 12,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 3,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_6\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Welcome to newmont!</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294925219",
+                "v": {
+                    "StaticText": "Welcome to newmont!",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_6",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{I:'vertLine'}{Data=a3c1f8ef_df85_4d4f_a64c_3c1bfc4eaeef}{I:'$$format.text'} [Static Text: Panel 2] �",
+                "displayODFlat": "{Data=a3c1f8ef_df85_4d4f_a64c_3c1bfc4eaeef}{I:'$$format.text'} [Static Text]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{I:'vertLine'}{Data=a3c1f8ef_df85_4d4f_a64c_3c1bfc4eaeef}{I:'$$format.text'} [Static Text]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{I:'vertLine'}{Data=a3c1f8ef_df85_4d4f_a64c_3c1bfc4eaeef}{I:'$$format.text'} [Static Text: Panel 2] �",
+                "idInternal": "a3c1f8ef_df85_4d4f_a64c_3c1bfc4eaeef",
+                "parentContainer": 12,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 3,
+                "crc": "4294934529",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_2\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Panel 2</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "StaticText": "Panel 2",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_2",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{I:'vertLine'}{Data=6f30ff2e-8a1b-424e-af0a-b9b22b177d71}{I:'vertLineCap'} [Panel Card End: PC_MAIN]",
+                "displayODFlat": "{Data=6f30ff2e-8a1b-424e-af0a-b9b22b177d71}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "6f30ff2e-8a1b-424e-af0a-b9b22b177d71",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 12,
+                "parentContainer": 11,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{I:'vertLine'}{Data=6f30ff2e-8a1b-424e-af0a-b9b22b177d71}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{I:'vertLine'}{Data=6f30ff2e-8a1b-424e-af0a-b9b22b177d71}{I:'vertLineCap'} [Panel Card End: PC_MAIN]",
+                "indentTree": 2,
+                "crc": "4294960221"
+            },
+            {
+                "controltype": "layout_directive_PanelNavigatorEnd",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{I:'vertLine'}{Data=4926692d-59d4-4842-b567-fc6af022b3f1}{I:'vertLineCap'} [Panel Navigator End: PANELNAVIGATOR_1]",
+                "displayODFlat": "{Data=4926692d-59d4-4842-b567-fc6af022b3f1}{I:'vertlinecap'} [Panel Navigator End]",
+                "idInternal": "4926692d-59d4-4842-b567-fc6af022b3f1",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 11,
+                "parentContainer": 1,
+                "displayOD": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{I:'vertLine'}{Data=4926692d-59d4-4842-b567-fc6af022b3f1}{I:'vertlinecap'} [Panel Navigator End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{I:'vertLine'}{Data=4926692d-59d4-4842-b567-fc6af022b3f1}{I:'vertLineCap'} [Panel Navigator End: PANELNAVIGATOR_1]",
+                "indentTree": 1
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=80a3c684-d57d-4591-8556-0190629a2601}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "displayODFlat": "{Data=80a3c684-d57d-4591-8556-0190629a2601}{I:'$$web.panel.Card'} [Panel Card: PANELCARD_3]",
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=80a3c684-d57d-4591-8556-0190629a2601}{I:'$$web.panel.Card'} [Panel Card: PANELCARD_3]",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=80a3c684-d57d-4591-8556-0190629a2601}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "idInternal": "80a3c684-d57d-4591-8556-0190629a2601",
+                "lastIndex": 19,
+                "parentContainer": 1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294931342",
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_3"
+                    },
+                    "panelInstance": {
+                        "layout": {
+                            "size": "40%",
+                            "dock": "collapse-after"
+                        },
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ccc74854_1428_4f54_8d2c_723b300f507e}{I:'$$format.text'} [Static Text: Panel 3] �",
+                "displayODFlat": "{Data=ccc74854_1428_4f54_8d2c_723b300f507e}{I:'$$format.text'} [Static Text]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ccc74854_1428_4f54_8d2c_723b300f507e}{I:'$$format.text'} [Static Text]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ccc74854_1428_4f54_8d2c_723b300f507e}{I:'$$format.text'} [Static Text: Panel 3] �",
+                "idInternal": "ccc74854_1428_4f54_8d2c_723b300f507e",
+                "parentContainer": 17,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "crc": "4294924311",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_3\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Panel 3</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "StaticText": "Panel 3",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_3",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=c341258c-97e2-4e81-ba97-ed77016437de}{I:'vertLineCap'} [Panel Card End: PANELCARD_3]",
+                "displayODFlat": "{Data=c341258c-97e2-4e81-ba97-ed77016437de}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "c341258c-97e2-4e81-ba97-ed77016437de",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 17,
+                "parentContainer": 1,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=c341258c-97e2-4e81-ba97-ed77016437de}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=c341258c-97e2-4e81-ba97-ed77016437de}{I:'vertLineCap'} [Panel Card End: PANELCARD_3]",
+                "indentTree": 1,
+                "crc": "4294963154"
+            },
+            {
+                "controltype": "layout_directive_PanelLayoutEnd",
+                "display": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=356d026b-d9c2-4faf-b784-16b4020513f0}{I:'vertLineCap'} [Panel Layout End: PANELLAYOUT_1]",
+                "displayODFlat": "{Data=356d026b-d9c2-4faf-b784-16b4020513f0}{I:'vertlinecap'} [Panel Layout End]",
+                "idInternal": "356d026b-d9c2-4faf-b784-16b4020513f0",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 1,
+                "parentContainer": -1,
+                "displayOD": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=356d026b-d9c2-4faf-b784-16b4020513f0}{I:'vertlinecap'} [Panel Layout End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=356d026b-d9c2-4faf-b784-16b4020513f0}{I:'vertLineCap'} [Panel Layout End: PANELLAYOUT_1]",
+                "indentTree": 0
+            }
+        ],
+        "_style_versionNumber": 4,
+        "_style_hasSassOverrides": false,
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "useCompactTheme": false,
+        "FontSize": "Medium",
+        "LocalCss": "<style type=\"text/css\">\n\n</style>",
+        "A5ContainerClassPadding": "0px",
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "layoutType": "ContainerWidth",
+        "previewMode": "Default",
+        "useDragScrolling": "Auto",
+        "pageTitle": "UX",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/Images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "globalSettings": {
+            "labelWidth": "1in"
+        },
+        "serverSideEvents": {
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "onTimerEventInterval": 60,
+        "securityDeniedAction": "Redirect to login page",
+        "clientSideEvents": {
+            "_canAjaxCallback": "",
+            "__afterAjaxCallbackComplete": "",
+            "beforeUXSectionPrepare": "",
+            "afterUXSectionPrepare": "",
+            "beforeUXSectionDestroy": "",
+            "afterUXSectionDestroy": "",
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onBeforeCreate": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "afterControlBasedOnClientSideDataCacheRefreshed": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onOAuthCompleted": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "onOAuthAuthorize": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": "",
+            "onWatchEvent": ""
+        },
+        "onlyValidateChangedFields": true,
+        "edit": {
+            "field_error_style": {
+                "type": "Block",
+                "showWarning": true,
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": ""
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "windowTitleDirection": "ltr",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?"
+        },
+        "dataBinding": {
+            "computeDataBindingCodeAtDesignTime": true,
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "autoRefreshSchemaOnLoad": true,
+            "autoRefreshPromptFirst": "Prompt",
+            "precalc": {
+                "flagCodeComputed": false
+            }
+        },
+        "actionJavascriptDefined": true,
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "showLineNumbersInControlsList": false,
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true
+        },
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "variablesToNotPersist": "",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser"
+        },
+        "securityAppliedClientSide": true,
+        "preRenderUXatDesignTime": true,
+        "preRenderComputeWhen": "Every time component is saved",
+        "selected": "574e593c-2a5c-4be7-9c1c-14dfbd9f7fef\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "lastControlSelected": "Insert_layout_directive_PanelNavigatorBegin",
+        "__WPhostName": "Chrome",
+        "embeddedMode": false,
+        "__allowCascadingRecalc": true,
+        "repeatingSectionsAreDirty": true,
+        "openedFromTemplate": false,
+        "precalc": {
+            "customControl": {
+                "js_beforePrepare": "\n__replaceAtRuntime_CustomControlsSystemBeforePrepare",
+                "js_afterRender": "\n__replaceAtRuntime_CustomControlsSystemAfterRender",
+                "customControl_xbasicFunctions": ""
+            },
+            "controlbarSettings": {
+                "CONTROLBAR_1": "{\n    \"className\": \"{dialog.componentName}_CONTROLBAR_1\",\n    \"disclosuresClassName\": \"{dialog.componentName}_CONTROLBAR_1\",\n    \"theme\": \"{dialog.style}\",\n    \"edge\": \"top\",\n    \"items\": {\n        \"Html1\": {\n            \"type\": \"html\",\n            \"html\": \"MyApp\"\n        },\n        \"Menu\": {\n            \"type\": \"disclosure-button\",\n            \"disclosure\": {\n                \"name\": \"layout:menuLayout\",\n                \"type\": \"outside-before\",\n                \"size\": \"none\",\n                \"animation\": {\n                    \"duration\": 200,\n                    \"tween\": \"ease-in-out\"\n                },\n                \"autoHide\": true\n            },\n            \"autoHideDisclosure\": \"always\",\n            \"settings\": {\n                \"show\": {\n                    \"theme\": \"{dialog.style}\",\n                    \"layout\": \"icon\",\n                    \"html\": \"Button\",\n                    \"icon\": \"svgIcon=#alpha-icon-bars:icon,24\"\n                },\n                \"hide\": {\n                    \"theme\": \"{dialog.style}\",\n                    \"layout\": \"icon\",\n                    \"html\": \"Button\",\n                    \"icon\": \"svgIcon=#alpha-icon-bars:icon,24\"\n                }\n            },\n            \"actions\": {}\n        },\n        \"Menu1\": {\n            \"size\": \"\",\n            \"type\": \"button\",\n            \"autoHideDisclosure\": \"auto\",\n            \"bind\": {},\n            \"actions\": {\n                \"click\": \"Action1\"\n            },\n            \"settings\": {\n                \"layout\": \"icon text\",\n                \"icon\": \"svgIcon=#alpha-icon-personEdit:icon,24\",\n                \"html\": \"Menu 1\"\n            }\n        },\n        \"Menu2\": {\n            \"size\": \"\",\n            \"type\": \"button\",\n            \"autoHideDisclosure\": \"auto\",\n            \"bind\": {},\n            \"actions\": {\n                \"click\": \"Action2\"\n            },\n            \"settings\": {\n                \"layout\": \"icon text\",\n                \"icon\": \"svgIcon=#alpha-icon-chartBar:icon,24\",\n                \"html\": \"Menu 2\"\n            }\n        },\n        \"Menu3\": {\n            \"size\": \"\",\n            \"type\": \"button\",\n            \"autoHideDisclosure\": \"auto\",\n            \"bind\": {},\n            \"actions\": {\n                \"click\": \"Action3\"\n            },\n            \"settings\": {\n                \"layout\": \"icon text\",\n                \"icon\": \"svgIcon=#alpha-icon-cart:icon,24\",\n                \"html\": \"Menu 3\"\n            }\n        },\n        \"Menu4\": {\n            \"size\": \"\",\n            \"type\": \"button\",\n            \"autoHideDisclosure\": \"auto\",\n            \"bind\": {},\n            \"actions\": {\n                \"click\": \"Action4\"\n            },\n            \"settings\": {\n                \"layout\": \"icon text\",\n                \"icon\": \"svgIcon=#alpha-icon-gear:icon,24\",\n                \"html\": \"Menu 4\"\n            }\n        }\n    },\n    \"actions\": {\n        \"Action1\": function(data) {{grid.object}.runAction('CustomerGrid');},\n        \"Action2\": function(data) {alert('You selected action2');},\n        \"Action3\": function(data) {alert('You selected action3');},\n        \"Action4\": function(data) {alert('You selected action4');}\n    },\n    \"layout\": \"Layout1\",\n    \"layouts\": {\n        \"Layout1\": {\n            \"lines\": [\n                {\n                    \"before\": {\n                        \"items\": [\n                            \"Menu\"\n                        ]\n                    },\n                    \"middle\": {\n                        \"items\": [\n                            \"Html1\"\n                        ]\n                    },\n                    \"after\": {\n                        \"items\": []\n                    }\n                }\n            ]\n        },\n        \"menuLayout\": {\n            \"lines\": [\n                {\n                    \"before\": {\n                        \"items\": [\n                            \"Menu1\",\n                            \"Menu2\",\n                            \"Menu3\",\n                            \"Menu4\"\n                        ]\n                    },\n                    \"middle\": {\n                        \"items\": []\n                    },\n                    \"after\": {\n                        \"items\": []\n                    }\n                }\n            ]\n        }\n    },\n    \"disclosures\": {}\n}"
+            },
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "repeatingsectionInfoJs": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};\n",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n}",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];\n{dialog.object}._cascadingControlsChildren = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n'xbasic\nv._dirty = .f.\n\n<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->\n<div class=\"A5CWLayout\"   id=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTROLBAR_1\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n\n<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><!--breakend-->\n<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_2\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_5\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Footer Here</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_2.BREAK\"  style=\"clear:both; \" /><!--breakend-->\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.MAINMENU\" for=\"{grid.componentname}.V.R{grid.rownumber}.MAINMENU\" title=\"\" class=\"label\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Mainmenu</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.MAINMENU\" name=\"V.R{grid.rownumber}.MAINMENU\" /><!--JSControlEnd-->\n<div >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.MAINMENU.CONTROL\"  class=\"{grid.componentName}_MAINMENU\" style=\"overflow: auto; width: 100%; \"></div>\n</div>\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_6\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Welcome to newmont!</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_2\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Panel 2</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_3\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Panel 3</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "panelDisplayNames": "PC_MENU : 'PC_MENU',PC_MAIN : 'PC_MAIN',PANELCARD_3 : 'PANELCARD_3',PANELNAVIGATOR_1 : 'PANELNAVIGATOR_1',PANELLAYOUT_1 : 'PANELLAYOUT_1'",
+            "controlJavascript": "",
+            "controlJavascriptRepeatingSections": "",
+            "template_js": "",
+            "sessionVarsInShowHideExpns": "",
+            "themeSearchReplaceString": "",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false,
+            "flagUseAmazonS3FileUpload": false,
+            "flagUseStripe": false,
+            "flagUseAudioPlayer": false,
+            "flagUseInk": false,
+            "flagUsesAudioLibrary": false,
+            "flagUsesPhoneGapFileSystemFunctions": false,
+            "flagUsesGetAccurateLocation": false,
+            "editorSet_for_editor": "{dialog.object}._EDITOR_EDITORSET = {};",
+            "otherJS": "",
+            "javascript_layoutRules": "",
+            "javascript_controlNesting": "{\nCONTAINER_1: [],\nCONTAINER_2: []\n}",
+            "appcacheEvents": "",
+            "IconMap": "{images.RowExpander.Open}=\"<Specified by Style>\"\n{images.RowExpander.Close}=\"<Specified by Style>\"\n{images.EmbeddedSearch.Search}=\"<Specified by Style>\"\n{images.EmbeddedSearch.ClearSearch}=\"<Specified by Style>\"\n{images.EmbeddedSearch.ShowHideEmbeddedSearch}=\"<Specified by Style>\"\n{images.GridRow.NewRecordRow.NoFocus}=\"<Specified by Style>\"\n{images.GridRow.NewRecordRow.HasFocus}=\"<Specified by Style>\"\n{images.GridRow.SaveRecord}=\"<Specified by Style>\"\n{images.GridRow.SaveRecord.Disabled}=\"<Specified by Style>\"\n{images.GridRow.UndoChanges}=\"<Specified by Style>\"\n{images.GridRow.UndoChanges.Disabled}=\"<Specified by Style>\"\n{images.GridRow.EditRecord}=\"<Specified by Style>\"\n{images.GridRow.EditRecord.Disabled}=\"<Specified by Style>\"\n{images.GridRow.DeleteRecord}=\"<Specified by Style>\"\n{images.GridRow.DeleteRecord.Disabled}=\"<Specified by Style>\"\n{images.GridRow.CancelEditRecord}=\"<Specified by Style>\"\n{images.GridRow.CancelEditRecord.Disabled}=\"<Specified by Style>\"\n{images.GridRow.HasError}=\"<Specified by Style>\"\n{images.QBE.OperatorIsSelected}=\"<Specified by Style>\"\n{images.QBE.OpenQBEMenu}=\"<Specified by Style>\"\n{images.QBE.ShowHideQBERow}=\"<Specified by Style>\"\n{images.PopUpWindow.Lookup.Close}=\"<Specified by Style>\"\n{images.PopUpWindow.DetailView.Close}=\"<Specified by Style>\"\n{images.CollapseContainer.Open}=\"<Specified by Style>\"\n{images.CollapseContainer.Close}=\"<Specified by Style>\"\n{images.FieldHelpIcon}=\"<Specified by Style>\"\n{images.SearchPart.SaveSearchCriteria}=\"<Specified by Style>\"\n{images.SearchPart.LoadSearchCriteria}=\"<Specified by Style>\"\n{images.SearchPart.RunSearch}=\"<Specified by Style>\"\n{images.SearchPart.ClearSearch}=\"<Specified by Style>\"\n{images.GridRow.SelectionPointer}=\"<Specified by Style>\"\n{images.Grid.SortAsc}=\"<Specified by Style>\"\n{images.Grid.SortAscDisabled}=\"<Specified by Style>\"\n{images.Grid.sortDesc}=\"<Specified by Style>\"\n{images.grid.sortDescDisabled}=\"<Specified by Style>\"\n{images.grid.firstPage}=\"<Specified by Style>\"\n{images.grid.firstPageDisabled}=\"<Specified by Style>\"\n{images.grid.prevPage}=\"<Specified by Style>\"\n{images.grid.prevPageDisabled}=\"<Specified by Style>\"\n{images.grid.nextPage}=\"<Specified by Style>\"\n{images.grid.nextPageDisabled}=\"<Specified by Style>\"\n{images.grid.lastPage}=\"<Specified by Style>\"\n{images.grid.lastPageDisabled}=\"<Specified by Style>\"\n{images.edit.dropdownArrow}=\"<Specified by Style>\"\n{images.edit.datePicker}=\"<Specified by Style>\"\n{images.edit.dateTimePicker}=\"<Specified by Style>\"\n{images.edit.timePicker}=\"<Specified by Style>\"\n{images.edit.calculator}=\"<Specified by Style>\"\n{images.edit.lookup}=\"<Specified by Style>\"\n{images.javascript.deleteRowConfirmation}=\"<Specified by Style>\"\n{images.javascript.cancelEditRowConfirmation}=\"<Specified by Style>\"\n{images.javascript.UndoEditsConfirmation}=\"<Specified by Style>\"\n{images.javascript.UndoAllEditsConfirmation}=\"<Specified by Style>\"\n{images.javascript.dirtyRecordWarning}=\"<Specified by Style>\"\n{images.dv.close}=\"<Specified by Style>\"\n{images.dv.firstRecord}=\"<Specified by Style>\"\n{images.dv.prevRecord}=\"<Specified by Style>\"\n{images.dv.nextRecord}=\"<Specified by Style>\"\n{images.dv.lastRecord}=\"<Specified by Style>\"\n{images.dv.newRecord}=\"<Specified by Style>\"\n{images.dv.cancelEdits}=\"<Specified by Style>\"\n{images.dv.deleteRecord}=\"<Specified by Style>\"\n{images.dv.saveRecord}=\"<Specified by Style>\"\n{images.dv.saveAndEnter}=\"<Specified by Style>\"\n{images.dv.switchToEdit}=\"<Specified by Style>\"\n{images.dv.switchToView}=\"<Specified by Style>\"\n{images.disabled.dv.newRecord}=\"<Specified by Style>\"\n{images.disabled.dv.cancelEdits}=\"<Specified by Style>\"\n{images.disabled.dv.deleteRecord}=\"<Specified by Style>\"\n{images.disabled.dv.saveRecord}=\"<Specified by Style>\"\n{images.disabled.dv.saveAndEnter}=\"<Specified by Style>\"\n{images.dv.cancelNewRecord}=\"<Specified by Style>\"\n{images.grid.editError}=\"<Specified by Style>\"\n{images.dialog.editError}=\"<Specified by Style>\"\n{images.tabbedUI.menuExpandLeft}=\"<Specified by Style>\"\n{images.tabbedUI.menuCollapseLeft}=\"<Specified by Style>\"\n{images.tabbedUI.menuExpandRight}=\"<Specified by Style>\"\n{images.tabbedUI.menuCollapseRight}=\"<Specified by Style>\"",
+            "ControlBarSettings2": {
+                "CONTROLBAR_1": {
+                    "javascriptFunctions": "",
+                    "css": ".{dialog.componentName}_CONTROLBAR_1{\n\n}",
+                    "data": "{}"
+                }
+            },
+            "usesSystemSVG": true,
+            "js_editorSetInitialization": ";\n\n",
+            "jschart": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "jschart_xbasicFunctions": ""
+            },
+            "rgraph": {
+                "libraries": ""
+            },
+            "getSetFunctions": {
+                "js_beforePrepare": ""
+            },
+            "flagHasShowTimer": false,
+            "hasListNavigator": false,
+            "vb_based_on_lists": "",
+            "vb_based_on_javascritFunctions": "",
+            "constrainContainerJS": "",
+            "hasFormViewControls": false,
+            "setScreenHeightJS": "",
+            "actionsheet": {
+                "has": false
+            },
+            "kanban": {
+                "has": false
+            },
+            "transformdataviewer": {
+                "has": false,
+                "controlnames": "",
+                "controlnamesListDataSource": "{dialog.object}._listsWithDependentTFControls = {}"
+            },
+            "requiredPlugins": "",
+            "absoluteLayoutSetButtonSizes": "",
+            "viewBoxesToRefresh": "",
+            "AdditionalGridStyles": ""
+        },
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: '1c370e5e-7a7c-4749-9393-cd1d7f4a6f25',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tssDateFormat: '{serverSideDateFormat}',\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'block', \n\t\tclassName: 'errorText',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.GLOBALERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t}\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.MAINMENU=\"\"",
+            "setValueProperties2": "value.MAINMENU=\"\"",
+            "setValueUnformattedProperties": "value.MAINMENU=convert_type(\"\",\"C\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "recNav": {
+            "slider": {
+                "showSlider": false
+            },
+            "listView": {
+                "showlistView": false
+            }
+        },
+        "iconMapOverrides": "",
+        "resolveAbstractIconNamesAtDesignTime": true,
+        "customizationString": {
+            "javascriptDialogs": "",
+            "DetailView": {
+                "toolbar": ""
+            }
+        },
+        "mobileDeviceDefault": "iphone4_v",
+        "containerSubTypeNew": "",
+        "containerSubTypeOld": "",
+        "flagDropdownCascadingChanged": false,
+        "toolBox_value": "",
+        "addinBuildNumber": "5233",
+        "addinBuildNumberHighestUsed": "5233",
+        "alphaFiveBuildNumber": "12",
+        "builtWithVersionNumer": 1,
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "_flagDoTreeview": true,
+        "versionNumber": 1,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "styleTweaksCSS": "",
+        "styleTweaksSubthemes": "",
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "dataSeriesPublishToClientSide": false,
+        "preRenderWarningMessageShow": true,
+        "autoSetPreRenderOnForAllUX": true,
+        "_style_hassubthemeTweaks": false,
+        "minimumBuildNumber": "",
+        "showPulseEffect": true,
+        "_flagShowAlphaWarning": false,
+        "style_color_palette": "",
+        "customTabOrder": "",
+        "friendlydatesCustomizationJSON": "",
+        "captureJSErrorStackTrace": false,
+        "optionalSystemLibraries": "",
+        "useIphoneXStyling": false,
+        "iPhoneXStylingJSON": "",
+        "__LPhostName": "Chrome",
+        "_style_isInherited": true,
+        "_buildCount": "9",
+        "__flagHasMacro": false,
+        "preRenderOptimization": false,
+        "_flagStaticHTMLMode": false,
+        "__componentnotfound": false,
+        "jsRunAtBeginning": "",
+        "__flagUseFakeRequestVariables": false,
+        "__specialMode": false,
+        "alias": "{UXPRERENDEREDALIAS}",
+        "systemXbasicFunctionDeclarations": "",
+        "localPreviewFlag": false,
+        "flagStaticHTMLMode": false,
+        "flagInitialLoadIsAjax": false,
+        "_forceInitialLoadIsAjax": false,
+        "override_settings": "",
+        "flagForcerecalc": false,
+        "flagSaveDialogCache": true,
+        "flagExecuteOnDialogInitializeEvent": true,
+        "flagExecuteOnDialogExecuteEvent": true,
+        "__livePreviewMode": false,
+        "__argumentsFromGrid": "",
+        "linkedResources": "",
+        "flagReloadComponent": false,
+        "__flagPrerender": false,
+        "panelRootId": "{UXPRERENDEROUTPUTDIV}",
+        "__flagstatichtmlorphonegap": false,
+        "__changeAJAXURL": "",
+        "__phoneGapInstantUpdate": false,
+        "temp": {
+            "_onRenderComplete": ""
+        },
+        "_sections": {
+            "flagHasSections": false
+        },
+        "disableAbstractEvents": false,
+        "flagLoadDetailViewImageCaptureJS": false,
+        "forceLoadPhoneGapFileSystemFunctions": false,
+        "_flagUsesAudioLibrary": false,
+        "_flagUsesInk": false,
+        "_flagUsesControlBar": true,
+        "__staticHTML_setStaticHTMLFlag": false,
+        "_isPartial": false,
+        "sassProcessor": true,
+        "__flagCreateAppCache": false,
+        "debugMode": false,
+        "__jsLibraries": "<script type=\"text/javascript\" src=\"javascript/a5.js\"></script>\n<script type=\"text/javascript\" src=\"javascript/a5_url.js\"></script>\n",
+        "A5SaveTimeStamp": "20190115155538075",
+        "__idinternalCurrentControl": "574e593c-2a5c-4be7-9c1c-14dfbd9f7fef",
+        "__nameCurrentControl": "mainmenu",
+        "json": "{\n\t\"items\": [\n\t{\n\t\t\"html\": \"Customer Information\",\n\t\t\"action\": \"action1\",\n\t\t\"children\": [\n\t\t{\n\t\t\t\"html\": \"Customer Grid\",\n\t\t\t\"action\": \"action2\"\n\t\t},\n\t\t{\n\t\t\t\"html\": \"Directory\",\n\t\t\t\"action\": \"action3\"\n\t\t}]\n\t}],\n\t\"actions\": {\n\t\t\"action2\": function(arg) { {dialog.object}.runAction('CustomerGrid');},\n\t\t\"action3\": function(arg) { {dialog.object}.runAction('Directory');}\n\t}\n}",
+        "jsonInputArray": "{\n\t\"tree\": [\n\t{\n\t\t\"label\": \"Customer Information\",\n\t\t\"level\": 1,\n\t\t\"isLeaf\": false,\n\t\t\"initialstate\": \"Closed\"\n\t},\n\t{\n\t\t\"label\": \"Customer Grid\",\n\t\t\"level\": 2,\n\t\t\"isLeaf\": true,\n\t\t\"Icon\": \"\",\n\t\t\"Event\": \"\",\n\t\t\"value\": \"\",\n\t\t\"onClick\": \"{dialog.object}.runAction('CustomerGrid');\",\n\t\t\"SecurityGroups\": \"\",\n\t\t\"serverSideShowHideExpn\": \"\",\n\t\t\"targetPanel\": \"\",\n\t\t\"itemType\": \"Item\",\n\t\t\"headingText\": \"\",\n\t\t\"actionName\": \"\",\n\t\t\"clientsideshowhideexpn\": \"\"\n\t},\n\t{\n\t\t\"label\": \"Directory\",\n\t\t\"level\": 2,\n\t\t\"isLeaf\": true,\n\t\t\"Icon\": \"\",\n\t\t\"Event\": \"\",\n\t\t\"value\": \"\",\n\t\t\"onClick\": \"{dialog.object}.runAction('Directory');\",\n\t\t\"SecurityGroups\": \"\",\n\t\t\"serverSideShowHideExpn\": \"\",\n\t\t\"targetPanel\": \"\",\n\t\t\"itemType\": \"Item\",\n\t\t\"headingText\": \"\",\n\t\t\"actionName\": \"\",\n\t\t\"clientsideshowhideexpn\": \"\"\n\t}]\n}",
+        "a_UnboundActionJavascript": [
+            {
+                "idInternal": "e56bf07f-d786-4edb-9a3d-c804c633b0ea",
+                "name": "CustomerGrid",
+                "javascript": {
+                    "unbound": "/* actionJavascript:91bb97e0-4d37-4fa3-831e-9a0682f36fbb  */\n{grid.componentName}_CB4B5108423E43E28B1E145FFF5E93A2(this);"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": "window['{dialog.componentName}_CB4B5108423E43E28B1E145FFF5E93A2'] = function(objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n//dynamic panel 2\nvar go = new Object();\n\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n\n\n\nif(typeof {grid.object} != 'undefined' &&typeof {grid.object}._workingPreviewHost != 'undefined') { \n\tgo._workingPreviewHost = {grid.object}._workingPreviewHost;\n}\n\nif(typeof {grid.object} != 'undefined' && typeof {grid.object}._workingPreviewHost != 'undefined') { \n\tgo._workingPreviewHost = {grid.object}._workingPreviewHost;\n}\n\nif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n}\n\n\n\n\n\n\ngo.objectId = objEle.id;\ngo.gridName = 'customerNM_grid';\ngo.alias = '{Grid.componentname}_customerNM_gdfp';\t\n\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.userFilter = '';\ngo.baseFilter = '';\ngo.arguments = '';\ngo.linkDefinition = '';\ngo.placeHolderValues = '';\ngo.userOrder = '';\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') go._thisGridAlias = {grid.object}.dialogId;\n\n\ngo._thisGridGUID = {grid.object}.componentGUID;\n\ngo._gridCurrentFilter = {grid.object}._gridFilter;\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\n\ngo.overrideSettings = 'Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.flagTimer = 'F';\ngo.flagQueryEcho = 'F';\ngo.flagDebugMode = 'F';\n\n\n\n\n\n//dynamic panel \ngo.dynamicPanel = true;\ngo.parentPanelNavigator = 'PANELNAVIGATOR_1';\ngo.dynamicPanelTitle = 'Grid';\ngo.dynamicPanelSetFocus = true;\ngo.canCloseDynamicPanel = false;\ngo.waitMessageTarget = '';\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\ngo.gridDiv = '';\n\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\t{grid.object}.openChildGrid(go);\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n}\t\n\n\n\n}"
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            },
+            {
+                "idInternal": "3fbe3bf2-36db-4205-af9a-53b90df11a83",
+                "name": "Directory",
+                "javascript": {
+                    "unbound": "/* actionJavascript:17818bc6-482c-4729-b92d-254e4c7cb7eb  */\n{grid.componentName}_O_A871CC28C80642C58EB3A44D9C65BB56({grid.rownumber},'{grid.rowId}',this);"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": "window['{grid.componentName}_O_A871CC28C80642C58EB3A44D9C65BB56'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n\t\tvar parentPanelNavigator = 'PANELNAVIGATOR_1';\n\tvar newPanelName = '7d3c867aa63a4befaa937496eac2b0f5';\n\tvar newPanelTitle = 'Reports';\n\t\n\tvar pnav = {dialog.object}.panelGet(parentPanelNavigator);\n\tvar newPanel = pnav.getPanel(newPanelName);\n\tif(newPanel == false) { \n\t\t//report has not run - add the dynamic panel\n\t\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\t\t{dialog.object}.panelSetActive(parentPanelNavigator,true,true);\n\t\tvar newReportPanelCard = new A5.PanelCard({ \n\t\t    theme : '{dialog.style}',\n\t\t    body: { \n\t\t        content: { \n\t\t            type: 'html',\n\t\t            src: ''\n\t\t            }\n\t\t        }\n\t\t    })\n\t\tvar pNav = {dialog.object}.panelGet(parentPanelNavigator);\n\t\t\n\t\t\n\t\tpNav.addPanel({\n\t\t    name: newPanelName ,\n\t\t    title: newPanelTitle,\n\t\t    src : newReportPanelCard,\n\t\t    close : false\n\t\t});\n\t\tvar panelId = pnav.getPanel(newPanelName).src.getPanelId('body');\n\t} else { \n\t\t//report has run - set focus to dynamic panel\n\t\tpnav.setActivePanel(newPanelName);\n\t\t{dialog.object}.panelSetActive(parentPanelNavigator,true,true);\n\t\treturn true;\n\t}\n\n\t$(panelId).innerHTML ='<div id=\"'+panelId+'.__REPORTHTML\"></div> ';\n\tvar eleInnerPanel = $(panelId+'.__REPORTHTML');\n\t//eleInnerPanel.innerHTML = '<img src=\"css/A5System/Images/wait.gif\" />Working...';\n\n\t\n\n\n\tvar ro = new Object();\n\t\nro.ajaxFailedMessage = '';\nro.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\t\n\tro.hostComponentType = 'Dialog';\n\tro.reportName = 'customerdirectorynm@ProjectReport';\n\tro.reportNameShort = 'customerdirectorynm';\n\tro.reportType = 'Report';\n\tro.reportIFrame = panelId;\n\tro.gridId = '{grid.componentName}';\n\tro.download = 'N';\n\tro.xbasicFunction = '';\n\t\n\tro.clientSideFilename = '';\n\tro.reportMessagesDivId = '';\n\tro.filter = '';\n\tro.order = '';\n\tro.sqlFilter = '';\n\tro.sqlOrder = '';\n\tro.arguments = '';\n\tro.rawArgumentMapping = '';\n\tro.controlReferences = [];\n\tro.arrayControls = {grid.object}._getArrayControls();\n\tro.workingMessage = 'Working...';\n\tro.workingMessageIcon = 'css/A5System/Images/wait.gif'\n\tro.pdfoptions = '';\n\tro.displayMode = '';\n\tro.saveAs = 'pdf';\n\tro.pdfOpenParameters = '' ;\n\tro._rowNumber = rowNum;\n\tro.afterExecuteJavascript = 'var pnav = {dialog.object}.panelGet(\\''+parentPanelNavigator+'\\');pnav.setActivePanel(\\''+newPanelName+'\\');{dialog.object}.hideWaitMessage(\\'page\\');\\n';\n\tif(A5.__dtfmt) ro.__dtfmt = A5.__dtfmt;\n\tro.__flagIIS = false;\n\tif(A5.__flagIIS) ro.__flagIIS = A5.__flagIIS;\n\t\n\t\n\tro.htmlReporting = {initialView: 'HTML',styleName: '{grid.style}',componentAlias: '{grid.componentName}',buttons: {pdf: true,excel: true,word: true,text: false,printHTML: true,pdfButton: {text: 'PDF',buttonType: 'Image followed by text',imageName: 'images/$$application.adobe.pdf.png.a5image',bubbleHelp: 'Print report as a PDF document.'},excelButton: {text: 'Excel',buttonType: 'Image followed by text',imageName: 'images/$$application.ms.excel.png.a5image',bubbleHelp: 'Export report to Excel.'},wordButton: {text: 'Word',buttonType: 'Image followed by text',imageName: 'images/$$application.ms.word.png.a5image',bubbleHelp: 'Export report to Word.'},printHTMLButton: {text: 'Print HTML',buttonType: 'Image followed by text',imageName: 'images/$$device.printer.png.a5image',bubbleHelp: 'Print the HTML report.'},bookmarksButton: {buttonType: 'Text',text: 'Bookmarks',imageName: 'images/$$generic.book.png.a5image'}},bookMarkPanelSize: '3in',htmlReportHeight: '3in',htmlReportWidth: '6in',reportTargetType: 'div',flagResizeDiv: false,reportTargetId: panelId,pdfOptions: ''};\n\t\n\t\n\t\n\tif({grid.object}._embeddedMode) {\n\t\tvar callWorkingPreview = true;\n\t\tif( typeof ro.htmlReporting == 'object' ) {\n\t\t\tif( ro.htmlReporting.initialView == \"HTML\" ) {\n\t\t\t\tcallWorkingPreview = false;\n\t\t\t}\n\t\t}\n\t\tif( callWorkingPreview ) {\n\t\t\tro.windowType = 'MDI';\n\t\t\treportPreviewFromWorkingPreview(ro);\n\t\t\treturn false;\n\t\t}\n\t}\n\n\n\t\n\t\n\t\n\tA5.component.runReport(ro);\n\n\n}"
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            }
+        ],
+        "unboundActionShowOnNewActionMessage": true,
+        "a_actionJavascript": [
+            {
+                "actionGuid": "91bb97e0-4d37-4fa3-831e-9a0682f36fbb ",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$web.component.grid'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Open a Grid component {T=4}{I:'a5_vertical_line'}\">\n<action=\"Open a Grid component \">\n<icon=\"$$web.component.grid\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_openGrid(v,wf,pv,dlg_mode)\">\n<metaData=<<%str1%\n<targetGridDefinition=<<%str%\n<gridName=\"customerNM_grid\">\n<gridAlias=\"<DefaultAlias>\">\n<order=\"\">\n<localArguments=\"\">\n<argumentBindings=\"\">\n<overrideSettings=\"\">\n<useSameStyleAsParentGrid=.T.>\n<base_filter=\"\">\n<user_filter=\"\">\n<link=\"\">\n<flagTimer=.F.>\n<flagQueryEcho=.F.>\n<flagDebugMode=.F.>\n<placeHolderValues=\"\">\n<linkSyntax=\"\">\n%str%>\n<grid<gridName=\"customerNM_grid\">\n<alias=\"<DefaultAlias>\">\n<userFilter=\"\">\n<baseFilter=\"\">\n<link=\"\">\n<order=\"\">\n<argumentDefinitions=\"\">\n<argumentBindings=\"\">\n<useMasterStyle=.T.>\n<overrideSettings=\"\">\n<debugMode=.F.>\n<timer=.F.>\n<queryEcho=.F.>\n<workingMessage=\"<img src=\\\"css/A5System/Images/wait.gif\\\" /> Computing Grid. Please wait...\">\n<useCachedGrid=.T.>\n<beforeExecuteClientSideFunctionName=\"\">\n<linksyntax=\"\">\n>\n<targetType=\"DynamicPanel\">\n<targetDIVid=\"\">\n<targetPanel=\"PC_MAIN\">\n<targetDIVcanHide=.T.>\n<targetDIVHideHyperlink=\"Close\">\n<targetDIVStyle=\"\">\n<parentNavigator=\"PANELNAVIGATOR_1\">\n<dynamicPanelTitle=\"Grid\">\n<dynamicPanelSetFocus=.T.>\n<dynamicPanelCanClose=.F.>\n<waitMessagePanel=\"\">\n<ajaxWindowWorkingMessageUseCSSAnimation=.F.>\n<ajaxWindowWorkingMessageCSSAnimationSettings<size=\"32\">\n>\n<dockWindow=.F.>\n<dockLocation=\"Bottom\">\n<windowNameExplicit=\"<Default>\">\n<ajaxWindowType=\"Modal-Popup\">\n<allowAutoCloseIfDirty=.F.>\n<ajaxWindowPositionAttribute=\"\">\n<ajaxWindowPositionAttributeEnglish=\"\">\n<ajaxWindowPositionAttributeDD=\"\">\n<ajaxWindowPositionAttributeEnglishDD=\"\">\n<ajaxWindowModalLockClassName=\"<Default>\">\n<ajaxWindowTitle=\"Window\">\n<ajaxPaneTitle=\"Pane\">\n<ajaxPaneAutoRefreshOnFocus=.F.>\n<ajaxPaneAlwaysUseNewPane=.T.>\n<ajaxWindowReuseExistingWindow=.F.>\n<ajaxWindowHeight=\"5in\">\n<ajaxWindowWidth=\"8in\">\n<ajaxWindowisResizable=.T.>\n<ajaxWindowWorkingMessage=\"Working...\">\n<ajaxWindowWorkingMessageIcon=\"css/A5System/Images/wait.gif\">\n<ajaxWindowTitlePosition=\"Top\">\n<ajaxWindowTitleDirection=\"ltr\">\n<ajaxWindowTitleHasClose=.T.>\n<ajaxWindowTitleShow=.T.>\n<ajaxWindowDisableMove=.F.>\n<ajaxWindowRefreshGridOnClose=\"None\">\n<window<hasCustomButtons=.F.>\n<buttonCount=0>\n<customButtonsInLineStyle=\"\">\n<tbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<header<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<footer<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<bbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<onInitialize=\"\">\n<onBeforeShow=\"\">\n<onShow=\"\">\n<onBeforeHide=\"\">\n<onHide=\"\">\n<onFocus=\"\">\n<onMove=\"\">\n<onResize=\"\">\n<animation<hasAnimation=.F.>\n<show<method=\"Fade\">\n<speed=\"Slow\">\n>\n<hide<method=\"None\">\n<speed=\"Fast\">\n>\n>\n<backgroundStyle=\"\">\n<centerContentsVertical=.F.>\n<centerContentsHorizontal=.F.>\n<warnOnCloseIfChildGridIsDirty=.T.>\n<pointer<has=.F.>\n<location=\"Auto\">\n>\n<subtheme=\"\">\n<buttons>\n>\n<parentTabPaneRefreshGridOnClose=.F.>\n<javascriptTabPane<onBeforeChange=\"\">\n<onChange=\"\">\n<onRightClick=\"\">\n<onInitial=\"\">\n<onBeforeRemove=\"\">\n<onRemove=\"\">\n>\n<ajaxFailedMessage=\"\">\n<offlineJavascript=\"\">\n<ajaxcallbacktimeout=\"<Default>\">\n%str1%>\n<javascriptAttribute=\"{grid.componentName}_CB4B5108423E43E28B1E145FFF5E93A2(this);\">\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=<<%str%\n\nwindow['{dialog.componentName}_CB4B5108423E43E28B1E145FFF5E93A2'] = function(objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n//dynamic panel 2\nvar go = new Object();\n\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n\n\n\nif(typeof {grid.object} != 'undefined' &&typeof {grid.object}._workingPreviewHost != 'undefined') { \n\tgo._workingPreviewHost = {grid.object}._workingPreviewHost;\n}\n\nif(typeof {grid.object} != 'undefined' && typeof {grid.object}._workingPreviewHost != 'undefined') { \n\tgo._workingPreviewHost = {grid.object}._workingPreviewHost;\n}\n\nif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n}\n\n\n\n\n\n\ngo.objectId = objEle.id;\ngo.gridName = 'customerNM_grid';\ngo.alias = '{Grid.componentname}_customerNM_gdfp';\t\n\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.userFilter = '';\ngo.baseFilter = '';\ngo.arguments = '';\ngo.linkDefinition = '';\ngo.placeHolderValues = '';\ngo.userOrder = '';\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') go._thisGridAlias = {grid.object}.dialogId;\n\n\ngo._thisGridGUID = {grid.object}.componentGUID;\n\ngo._gridCurrentFilter = {grid.object}._gridFilter;\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\n\ngo.overrideSettings = 'Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.flagTimer = 'F';\ngo.flagQueryEcho = 'F';\ngo.flagDebugMode = 'F';\n\n\n\n\n\n//dynamic panel \ngo.dynamicPanel = true;\ngo.parentPanelNavigator = 'PANELNAVIGATOR_1';\ngo.dynamicPanelTitle = 'Grid';\ngo.dynamicPanelSetFocus = true;\ngo.canCloseDynamicPanel = false;\ngo.waitMessageTarget = '';\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\ngo.gridDiv = '';\n\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\t{grid.object}.openChildGrid(go);\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n}\t\n\n\n\n}\n%str%>\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            },
+            {
+                "actionGuid": "17818bc6-482c-4729-b92d-254e4c7cb7eb ",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$presentation.report'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Open a Report, Label or Letter layout {T=4}{I:'a5_vertical_line'}\">\n<action=\"Open a Report, Label or Letter layout \">\n<icon=\"$$presentation.report\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_openReport(v,wf,pv,dlg_mode)\">\n<metaData=<<%str1%\n<flagAdvancedExport=.F.>\n<reportSendEmail=.F.>\n<reportSendEmailJson=\"\">\n<reportPrintDefinition=<<%str%\n<layoutType=1>\n<layoutName=\"customerdirectorynm@ProjectReport\">\n<dbfFilter=\"\">\n<sqlFilter=\"\">\n<dbfOrder=\"\">\n<sqlOrder=\"\">\n<localArguments=\"\">\n<argumentBindings=\"\">\n<pdfOptions=\"\">\n<localFilter=\"\">\n<localOrder=\"\">\n<isSQL=.F.>\n<SQLReport=.T.>\n<sqladhocarguments=\"\">\n%str%>\n<report<layoutTypeC=\"\">\n<layoutName=\"customerdirectorynm@ProjectReport\">\n<dbfFilter=\"\">\n<dbfOrder=\"\">\n<sqlFilter=\"\">\n<sqlOrder=\"\">\n<localArguments=\"\">\n<argumentBindings=\"\">\n<pdfOptions=\"\">\n<localFilter=\"\">\n<localOrder=\"\">\n<sqlReport=.T.>\n<pdfOpenParameters=\"\">\n<initialView=\"HTML\">\n<HTMLToolbar<buttons<pdf=.T.>\n<excel=.T.>\n<printHTML=.T.>\n<word=.T.>\n<text=.F.>\n<close=.F.>\n<close_text=\"Close\">\n<pdfButton<text=\"PDF\">\n<buttonType=\"Image followed by text\">\n<imageName=\"images/$$application.adobe.pdf.png.a5image\">\n<bubbleHelp=\"Print report as a PDF document.\">\n>\n<excelButton<text=\"Excel\">\n<buttonType=\"Image followed by text\">\n<imageName=\"images/$$application.ms.excel.png.a5image\">\n<bubbleHelp=\"Export report to Excel.\">\n>\n<printHTMLButton<text=\"Print HTML\">\n<buttonType=\"Image followed by text\">\n<imageName=\"images/$$device.printer.png.a5image\">\n<bubbleHelp=\"Print the HTML report.\">\n>\n<WordButton<text=\"Word\">\n<buttonType=\"Image followed by text\">\n<imageName=\"images/$$application.ms.word.png.a5image\">\n<bubbleHelp=\"Export report to Word.\">\n>\n<textButton<text=\"Text\">\n<buttonType=\"Image followed by text\">\n<imageName=\"images/$$control.text.png.a5image\">\n<bubbleHelp=\"Export data in report to a text file.\">\n>\n<bookmarksButton<buttonType=\"Text\">\n<text=\"Bookmarks\">\n<imageName=\"images/$$generic.book.png.a5image\">\n>\n>\n<bookMarkPanelSize=\"3in\">\n>\n<maxDisplayRecords=0>\n<moreRecordsTemplate=\"<hr />Showing first [DisplayRecords] of [TotalRecords] records in query\">\n<moreRecordsStyle=\"text-align: center;\">\n<beforeExecuteClientSideFunctionName=\"\">\n<afterExecuteJavascript=\"\">\n>\n<flagExportMode=.F.>\n<htmlReportHeight=\"3in\">\n<htmlReportWidth=\"6in\">\n<parentNavigator=\"PANELNAVIGATOR_1\">\n<dynamicPanelTitle=\"Reports\">\n<dynamicPanelSetFocus=.T.>\n<waitMessagePanel=\"\">\n<dynamicPanelCanClose=.F.>\n<ajaxWindowWorkingMessageUseCSSAnimation=.F.>\n<ajaxWindowWorkingMessageCSSAnimationSettings<size=\"32\">\n>\n<targetType=\"DynamicPanel\">\n<targetDIVid=\"\">\n<targetDIVcanHide=.T.>\n<targetDIVHideHyperlink=\"Close\">\n<targetDIVIframeStyle=\"height: 5in; width: 6in;\">\n<dockWindow=.F.>\n<dockLocation=\"Bottom\">\n<windowNameExplicit=\"<Default>\">\n<ajaxWindowType=\"Modal-Popup\">\n<onCompleteXbasicFunction=\"\">\n<targetPanel=\"PC_MAIN\">\n<clientSideFilename=\"\">\n<targetFolder=\"\">\n<ajaxWindowPositionAttribute=\"\">\n<ajaxWindowPositionAttributeEnglish=\"\">\n<ajaxWindowModalLockClassName=\"<Default>\">\n<ajaxWindowTitle=\"Window\">\n<ajaxPaneTitle=\"Pane\">\n<ajaxPaneAlwaysUseNewPane=.T.>\n<ajaxWindowReuseExistingWindow=.F.>\n<ajaxWindowHeight=\"5in\">\n<ajaxWindowWidth=\"8in\">\n<ajaxWindowisResizable=.T.>\n<ajaxWindowWorkingMessage=\"Working...\">\n<ajaxWindowWorkingMessageIcon=\"css/A5System/Images/wait.gif\">\n<ajaxWindowTitlePosition=\"Top\">\n<ajaxWindowTitleDirection=\"ltr\">\n<ajaxWindowTitleHasClose=.T.>\n<ajaxWindowTitleShow=.T.>\n<ajaxWindowDisableMove=.F.>\n<window<hasCustomButtons=.F.>\n<buttonCount=0>\n<customButtonsInLineStyle=\"\">\n<tbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<header<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<footer<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<bbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<pointer<has=.F.>\n<location=\"Auto\">\n>\n<onInitialize=\"\">\n<onBeforeShow=\"\">\n<onShow=\"\">\n<onBeforeHide=\"\">\n<onHide=\"\">\n<onFocus=\"\">\n<onMove=\"\">\n<onResize=\"\">\n<subtheme=\"\">\n<animation<hasAnimation=.F.>\n<show<method=\"Fade\">\n<speed=\"Slow\">\n>\n<hide<method=\"None\">\n<speed=\"Fast\">\n>\n>\n<buttons>\n>\n<ajaxFailedMessage=\"\">\n<offlineJavascript=\"\">\n<ajaxcallbacktimeout=\"<Default>\">\n%str1%>\n<javascriptAttribute=\"{grid.componentName}_O_A871CC28C80642C58EB3A44D9C65BB56({grid.rownumber},'{grid.rowId}',this);\">\n<Javascriptdeclarations_row=<<%str%\n\n%str%>\n<Javascriptdeclarations_global=<<%str%\nwindow['{grid.componentName}_O_A871CC28C80642C58EB3A44D9C65BB56'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n\t\tvar parentPanelNavigator = 'PANELNAVIGATOR_1';\n\tvar newPanelName = '7d3c867aa63a4befaa937496eac2b0f5';\n\tvar newPanelTitle = 'Reports';\n\t\n\tvar pnav = {dialog.object}.panelGet(parentPanelNavigator);\n\tvar newPanel = pnav.getPanel(newPanelName);\n\tif(newPanel == false) { \n\t\t//report has not run - add the dynamic panel\n\t\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\t\t{dialog.object}.panelSetActive(parentPanelNavigator,true,true);\n\t\tvar newReportPanelCard = new A5.PanelCard({ \n\t\t    theme : '{dialog.style}',\n\t\t    body: { \n\t\t        content: { \n\t\t            type: 'html',\n\t\t            src: ''\n\t\t            }\n\t\t        }\n\t\t    })\n\t\tvar pNav = {dialog.object}.panelGet(parentPanelNavigator);\n\t\t\n\t\t\n\t\tpNav.addPanel({\n\t\t    name: newPanelName ,\n\t\t    title: newPanelTitle,\n\t\t    src : newReportPanelCard,\n\t\t    close : false\n\t\t});\n\t\tvar panelId = pnav.getPanel(newPanelName).src.getPanelId('body');\n\t} else { \n\t\t//report has run - set focus to dynamic panel\n\t\tpnav.setActivePanel(newPanelName);\n\t\t{dialog.object}.panelSetActive(parentPanelNavigator,true,true);\n\t\treturn true;\n\t}\n\n\t$(panelId).innerHTML ='<div id=\"'+panelId+'.__REPORTHTML\"></div> ';\n\tvar eleInnerPanel = $(panelId+'.__REPORTHTML');\n\t//eleInnerPanel.innerHTML = '<img src=\"css/A5System/Images/wait.gif\" />Working...';\n\n\t\n\n\n\tvar ro = new Object();\n\t\nro.ajaxFailedMessage = '';\nro.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\t\n\tro.hostComponentType = 'Dialog';\n\tro.reportName = 'customerdirectorynm@ProjectReport';\n\tro.reportNameShort = 'customerdirectorynm';\n\tro.reportType = 'Report';\n\tro.reportIFrame = panelId;\n\tro.gridId = '{grid.componentName}';\n\tro.download = 'N';\n\tro.xbasicFunction = '';\n\t\n\tro.clientSideFilename = '';\n\tro.reportMessagesDivId = '';\n\tro.filter = '';\n\tro.order = '';\n\tro.sqlFilter = '';\n\tro.sqlOrder = '';\n\tro.arguments = '';\n\tro.rawArgumentMapping = '';\n\tro.controlReferences = [];\n\tro.arrayControls = {grid.object}._getArrayControls();\n\tro.workingMessage = 'Working...';\n\tro.workingMessageIcon = 'css/A5System/Images/wait.gif'\n\tro.pdfoptions = '';\n\tro.displayMode = '';\n\tro.saveAs = 'pdf';\n\tro.pdfOpenParameters = '' ;\n\tro._rowNumber = rowNum;\n\tro.afterExecuteJavascript = 'var pnav = {dialog.object}.panelGet(\\''+parentPanelNavigator+'\\');pnav.setActivePanel(\\''+newPanelName+'\\');{dialog.object}.hideWaitMessage(\\'page\\');\\n';\n\tif(A5.__dtfmt) ro.__dtfmt = A5.__dtfmt;\n\tro.__flagIIS = false;\n\tif(A5.__flagIIS) ro.__flagIIS = A5.__flagIIS;\n\t\n\t\n\tro.htmlReporting = {initialView: 'HTML',styleName: '{grid.style}',componentAlias: '{grid.componentName}',buttons: {pdf: true,excel: true,word: true,text: false,printHTML: true,pdfButton: {text: 'PDF',buttonType: 'Image followed by text',imageName: 'images/$$application.adobe.pdf.png.a5image',bubbleHelp: 'Print report as a PDF document.'},excelButton: {text: 'Excel',buttonType: 'Image followed by text',imageName: 'images/$$application.ms.excel.png.a5image',bubbleHelp: 'Export report to Excel.'},wordButton: {text: 'Word',buttonType: 'Image followed by text',imageName: 'images/$$application.ms.word.png.a5image',bubbleHelp: 'Export report to Word.'},printHTMLButton: {text: 'Print HTML',buttonType: 'Image followed by text',imageName: 'images/$$device.printer.png.a5image',bubbleHelp: 'Print the HTML report.'},bookmarksButton: {buttonType: 'Text',text: 'Bookmarks',imageName: 'images/$$generic.book.png.a5image'}},bookMarkPanelSize: '3in',htmlReportHeight: '3in',htmlReportWidth: '6in',reportTargetType: 'div',flagResizeDiv: false,reportTargetId: panelId,pdfOptions: ''};\n\t\n\t\n\t\n\tif({grid.object}._embeddedMode) {\n\t\tvar callWorkingPreview = true;\n\t\tif( typeof ro.htmlReporting == 'object' ) {\n\t\t\tif( ro.htmlReporting.initialView == \"HTML\" ) {\n\t\t\t\tcallWorkingPreview = false;\n\t\t\t}\n\t\t}\n\t\tif( callWorkingPreview ) {\n\t\t\tro.windowType = 'MDI';\n\t\t\treportPreviewFromWorkingPreview(ro);\n\t\t\treturn false;\n\t\t}\n\t}\n\n\n\t\n\t\n\t\n\tA5.component.runReport(ro);\n\n\n}\n\n%str%>\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            }
+        ],
+        "actionJavascriptUnboundLastEdited": "e56bf07f-d786-4edb-9a3d-c804c633b0ea",
+        "Livepreview_permissions": "",
+        "livePreview_permissions_friendly": "",
+        "prerendered": {
+            "_styledataVersion": 4,
+            "output": {
+                "Head": {
+                    "JavaScript": "*gzip:H4sIAAAAAAAAC5WMsQ6CQBAFexP/Aa/Hq+gOOjsqf2Cznq84PPGyuyD8vSQUFlaWM5NM0CipWGVrQesMi/mBZ96tq1Ri677Cc3Me1HXB79wdD+HfAU2Sfyanun/x/bIYZOTcp5uwJGi9NSJByRzBdp1GS08QRVW1NcPe4IcSfQAk7ywxxgAAAA==",
+                    "CSS_Link": "*gzip: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",
+                    "title": "*gzip:H4sIAAAAAAAAC7MpySzJSbULjbDRh7AAiMez8hEAAAA="
+                },
+                "body": {
+                    "body_tag": "*gzip:H4sIAAAAAAAAC7NJyk+pVEjOSSwutlUqSExPVVAoKM0pTlWyAwC29a3YGgAAAA==",
+                    "dialog2_html": "*gzip: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"
+                },
+                "ajaxResponse": "*gzip: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"
+            },
+            "iconMap": "{images.RowExpander.Open}=\"svgIcon=#alpha-icon-chevronDown:icon\"\n{images.RowExpander.Close}=\"svgIcon=#alpha-icon-chevronUp:icon\"\n{images.EmbeddedSearch.Search}=\"svgIcon=#alpha-icon-magGlass:icon iconButton\"\n{images.EmbeddedSearch.ClearSearch}=\"svgIcon=#alpha-icon-magGlassX:icon iconButton\"\n{images.EmbeddedSearch.ShowHideEmbeddedSearch}=\"svgIcon=#alpha-icon-magGlass:icon iconButton\"\n{images.GridRow.NewRecordRow.NoFocus}=\"svgIcon=#alpha-icon-doc:icon iconButton\"\n{images.GridRow.NewRecordRow.HasFocus}=\"svgIcon=#alpha-icon-chevronRight:icon iconButton\"\n{images.GridRow.SaveRecord}=\"svgIcon=#alpha-icon-save:icon iconButton\"\n{images.GridRow.SaveRecord.Disabled}=\"svgIcon=#alpha-icon-save:icon iconDisabled iconButton\"\n{images.GridRow.UndoChanges}=\"svgIcon=#alpha-icon-undo:icon iconButton\"\n{images.GridRow.UndoChanges.Disabled}=\"svgIcon=#alpha-icon-undo:icon iconDisabled iconButton\"\n{images.GridRow.EditRecord}=\"svgIcon=#alpha-icon-edit:icon iconButton\"\n{images.GridRow.EditRecord.Disabled}=\"svgIcon=#alpha-iconDisabled icon-edit:icon iconDisabled iconButton\"\n{images.GridRow.DeleteRecord}=\"svgIcon=#alpha-icon-removeCircle:icon iconButton\"\n{images.GridRow.DeleteRecord.Disabled}=\"svgIcon=#alpha-icon-removeCircle:icon iconDisabled iconButton\"\n{images.GridRow.CancelEditRecord}=\"svgIcon=#alpha-icon-editCancel:icon iconButton\"\n{images.GridRow.CancelEditRecord.Disabled}=\"svgIcon=#alpha-icon-editCancel:icon iconDisabled iconButton\"\n{images.GridRow.HasError}=\"svgIcon=#alpha-icon-exclamationCircle:icon iconButton\"\n{images.QBE.OperatorIsSelected}=\"svgIcon=#alpha-icon-check:icon iconButton\"\n{images.QBE.OpenQBEMenu}=\"svgIcon=#alpha-icon-filter:icon iconButton\"\n{images.QBE.ShowHideQBERow}=\"svgIcon=#alpha-icon-filter:icon iconButton\"\n{images.PopUpWindow.Lookup.Close}=\"svgIcon=#alpha-icon-x:icon iconButton\"\n{images.PopUpWindow.DetailView.Close}=\"svgIcon=#alpha-icon-x:icon iconButton\"\n{images.CollapseContainer.Open}=\"svgIcon=#alpha-icon-chevronRight:icon iconButton\"\n{images.CollapseContainer.Close}=\"svgIcon=#alpha-icon-chevronDown:icon iconButton\"\n{images.FieldHelpIcon}=\"svgIcon=#alpha-icon-questionCircle:icon\"\n{images.SearchPart.SaveSearchCriteria}=\"svgIcon=#alpha-icon-save:icon iconButton\"\n{images.SearchPart.LoadSearchCriteria}=\"svgIcon=#alpha-icon-load:icon iconButton\"\n{images.SearchPart.RunSearch}=\"svgIcon=#alpha-icon-magGlass:icon iconButton\"\n{images.SearchPart.ClearSearch}=\"svgIcon=#alpha-icon-magGlassX:icon iconButton\"\n{images.GridRow.SelectionPointer}=\"svgIcon=#alpha-icon-chevronRight:icon iconButton\"\n{images.Grid.SortAsc}=\"svgIcon=#alpha-icon-chevronUp:icon iconButton\"\n{images.Grid.SortAscDisabled}=\"svgIcon=#alpha-icon-chevronUp:icon iconDisabled iconButton\"\n{images.Grid.sortDesc}=\"svgIcon=#alpha-icon-chevronDown:icon iconButton\"\n{images.grid.sortDescDisabled}=\"svgIcon=#alpha-icon-chevronDown:icon iconDisabled iconButton\"\n{images.grid.firstPage}=\"svgIcon=#alpha-icon-chevronDblLeft:icon iconButton\"\n{images.grid.firstPageDisabled}=\"svgIcon=#alpha-icon-chevronDblLeft:icon iconDisabled iconButton\"\n{images.grid.prevPage}=\"svgIcon=#alpha-icon-chevronLeft:icon iconButton\"\n{images.grid.prevPageDisabled}=\"svgIcon=#alpha-icon-chevronLeft:icon iconDisabled iconButton\"\n{images.grid.nextPage}=\"svgIcon=#alpha-icon-chevronRight:icon iconButton\"\n{images.grid.nextPageDisabled}=\"svgIcon=#alpha-icon-chevronRight:icon iconDisabled iconButton\"\n{images.grid.lastPage}=\"svgIcon=#alpha-icon-chevronDblRight:icon iconButton\"\n{images.grid.lastPageDisabled}=\"svgIcon=#alpha-icon-chevronDblRight:icon iconDisabled iconButton\"\n{images.edit.dropdownArrow}=\"svgIcon=#alpha-icon-chevronDown:icon\"\n{images.edit.datePicker}=\"svgIcon=#alpha-icon-chevronDown:icon\"\n{images.edit.dateTimePicker}=\"svgIcon=#alpha-icon-chevronDown:icon\"\n{images.edit.timePicker}=\"svgIcon=#alpha-icon-chevronDown:icon\"\n{images.edit.calculator}=\n{images.edit.lookup}=\"svgIcon=alpha-icon-chevronDown:icon\"\n{images.javascript.deleteRowConfirmation}=\"svgIcon=#alpha-icon-questionCircle:icon\"\n{images.javascript.cancelEditRowConfirmation}=\"svgIcon=#alpha-icon-questionCircle:icon\"\n{images.javascript.UndoEditsConfirmation}=\"svgIcon=#alpha-icon-infoCircle:icon\"\n{images.javascript.UndoAllEditsConfirmation}=\"svgIcon=#alpha-icon-infoCircle:icon\"\n{images.javascript.dirtyRecordWarning}=\"svgIcon=#alpha-icon-infoCircle:icon\"\n{images.dv.close}=\"svgIcon=#alpha-icon-xCircle:icon iconButton\"\n{images.dv.firstRecord}=\"svgIcon=#alpha-icon-chevronDblLeft:icon iconButton\"\n{images.dv.prevRecord}=\"svgIcon=#alpha-icon-chevronLeft:icon iconButton\"\n{images.dv.nextRecord}=\"svgIcon=#alpha-icon-chevronRight:icon iconButton\"\n{images.dv.lastRecord}=\"svgIcon=#alpha-icon-chevronDblRight:icon iconButton\"\n{images.dv.newRecord}=\"svgIcon=#alpha-icon-docAdd:icon iconButton\"\n{images.dv.cancelEdits}=\"svgIcon=#alpha-icon-editCancel:icon iconButton\"\n{images.dv.deleteRecord}=\"svgIcon=#alpha-icon-docX:icon iconButton\"\n{images.dv.saveRecord}=\"svgIcon=#alpha-icon-save:icon iconButton\"\n{images.dv.saveAndEnter}=\"svgIcon=#alpha-icon-saveAndEnter:icon iconButton\"\n{images.dv.switchToEdit}=\"svgIcon=#alpha-icon-edit:icon iconButton\"\n{images.dv.switchToView}=\"svgIcon=#alpha-icon-x:icon iconButton\"\n{images.disabled.dv.newRecord}=\"svgIcon=#alpha-icon-docAdd:icon iconButton\"\n{images.disabled.dv.cancelEdits}=\"svgIcon=#alpha-icon-editCancel:icon iconButton\"\n{images.disabled.dv.deleteRecord}=\"svgIcon=#alpha-icon-docX:icon iconButton\"\n{images.disabled.dv.saveRecord}=\"svgIcon=#alpha-icon-save:icon iconButton\"\n{images.disabled.dv.saveAndEnter}=\"svgIcon=#alpha-icon-saveAndEnter:icon iconButton\"\n{images.dv.cancelNewRecord}=\"svgIcon=#alpha-icon-editCancel:icon iconButton\"\n{images.grid.editError}=\"svgIcon=#alpha-icon-exclamationCircle:icon\"\n{images.dialog.editError}=\"svgIcon=#alpha-icon-exclamationCircle:icon\"\n{images.tabbedUI.menuExpandLeft}=\"svgIcon=#alpha-icon-chevronDblRight:icon\"\n{images.tabbedUI.menuCollapseLeft}=\"svgIcon=#alpha-icon-chevronDblLeft:icon\"\n{images.tabbedUI.menuExpandRight}=\"svgIcon=#alpha-icon-chevronDblLeft:icon\"\n{images.tabbedUI.menuCollapseRight}=\"svgIcon=#alpha-icon-chevronDblRight:icon\"\n{images.dialog.repeatingSectionActiveRowIcon}=\"svgIcon=#alpha-icon-chevronRight:icon\"\n{images.dialog.repeatingSectionAddRowIcon}=\"svgIcon=#alpha-icon-add:icon iconButton\"\n{images.dialog.repeatingSectionDeleteRowIcon}=\"svgIcon=#alpha-icon-remove:icon iconButton\"\n{images.dialog.repeatingSectionErrorRowIcon}=\"svgIcon=#alpha-icon-exclamationCircle:icon\"\n{images.dialog.deleteRowMessage.icon}=\"svgIcon=#alpha-icon-questionCircle:icon\"\n{images.dialog.resetForm.icon}=\"svgIcon=#alpha-icon-questionCircle:icon\"\n{images.dialog.dirtyForm.icon}=\"svgIcon=#alpha-icon-infoCircle:icon\"\n{images.dialog.editError}=\"svgIcon=#alpha-icon-exclamationCircle:icon\"\n{images.dialog.listNav}=\"svgIcon=#alpha-icon-chevronRight:icon\"\n{images.dialog.listNavSubtle}=\"svgIcon=#alpha-icon-chevronRight:icon\"\n{images.dialog.menu}=\"svgIcon=#alpha-icon-bars:icon\"\n{images.dialog.refresh}=\"svgIcon=#alpha-icon-refresh:icon\"\n{images.dialog.refreshDisabled}=\"svgIcon=#alpha-icon-refresh:icon iconDisabled\""
+        }
+    }
+}

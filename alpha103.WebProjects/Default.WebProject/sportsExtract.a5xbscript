@@ -1,0 +1,87 @@
+'dim cf_1 as extension::CurlFile
+'dim flag_1 as l
+'dim slist1[0] as c = [ "X-RapidAPI-Key: tAF7PuQ5Bimsh4W85AHrEmBv6JdQp1Mxdsijsn4I8R4fpXTysP" ]
+'dim ce as extension::Curl
+'
+'ce = extension::Curl.Init()
+'ce.setOpt("URL","https://therundown-therundown-v1.p.rapidapi.com/sports")
+'ce.setOpt("NOPROGRESS",1)
+'ce.setOpt("HEADER",1)
+'ce.setOpt("USERAGENT","curl/7.34.0")
+'ce.setOpt("HTTPHEADER",slist1)
+'ce.setOpt("MAXREDIRS",50)
+'ce.setOpt("CAINFO",a5.Get_Exe_Path()+"\caroot\ca-cert.pem")
+'ce.setOpt("CAPATH",a5.Get_Exe_Path()+"\caroot")
+''ce.setOpt("SSH_KNOWNHOSTS","C:\Users\mac\AppData\Roaming/_ssh/known_hosts")
+'ce.setOpt("TCP_KEEPALIVE",1)
+'ce.SetOpt("FILE",cf_1)
+'flag_1 = ce.Exec()
+'if flag_1 then
+'
+'    dim headers as c
+'	dim contents as c
+'	headers = cf_1.GetHeaders()
+'	contents = cf_1.GetContent()
+'debug(1)
+'	json = extract_string(contents,"[{","]}",1,.t.)
+'	json = rtrim("}")
+'
+'
+'	'BE SURE TO COMMENT OUT THIS CODE IN A WEB APPLICATION AS showVar() CANNOT BE USED IN WEB APPLICATIONS
+'	dim msg as c
+'	msg = "Headers: " + crlf() + headers + crlf() + "Content: " + contents
+'	showvar(json)
+'
+'
+'else
+'	dim errors as c
+'	errors = ce.error()
+'
+'	'BE SURE TO COMMENT OUT THIS CODE IN A WEB APPLICATION AS showVar() CANNOT BE USED IN WEB APPLICATIONS
+'	showvar("error: " + errors)
+'end if
+'ce.close()
+
+dim cf_1 as extension::CurlFile
+dim flag_1 as l
+dim slist1[0] as c = [ "X-RapidAPI-Key: tAF7PuQ5Bimsh4W85AHrEmBv6JdQp1Mxdsijsn4I8R4fpXTysP" ]
+dim ce as extension::Curl
+
+ce = extension::Curl.Init()
+ce.setOpt("URL","https://therundown-therundown-v1.p.rapidapi.com/sports")
+ce.setOpt("NOPROGRESS",1)
+ce.setOpt("USERAGENT","curl/7.34.0")
+ce.setOpt("HTTPHEADER",slist1)
+ce.setOpt("MAXREDIRS",50)
+ce.setOpt("CAINFO",a5.Get_Exe_Path()+"\caroot\ca-cert.pem")
+ce.setOpt("CAPATH",a5.Get_Exe_Path()+"\caroot")
+'ce.setOpt("SSH_KNOWNHOSTS","C:\Users\mac\AppData\Roaming/_ssh/known_hosts")
+ce.setOpt("TCP_KEEPALIVE",1)
+ce.SetOpt("FILE",cf_1)
+flag_1 = ce.Exec()
+if flag_1 then
+
+    dim headers as c
+	dim contents as c
+	headers = cf_1.GetHeaders()
+	contents = cf_1.GetContent()
+	
+	DIM resultPointer as P
+	resultPointer = json_parse(contents)
+	json = resultPointer.sports
+
+	'BE SURE TO COMMENT OUT THIS CODE IN A WEB APPLICATION AS showVar() CANNOT BE USED IN WEB APPLICATIONS
+	dim msg as c
+	msg = "Headers: " + crlf() + headers + crlf() + "Content: " + contents
+	showvar( contents)
+
+
+else
+	dim errors as c
+	errors = ce.error()
+
+	'BE SURE TO COMMENT OUT THIS CODE IN A WEB APPLICATION AS showVar() CANNOT BE USED IN WEB APPLICATIONS
+	showvar("error: " + errors)
+end if
+ce.close()
+

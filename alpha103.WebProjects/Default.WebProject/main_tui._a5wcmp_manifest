@@ -1,0 +1,12 @@
+A5SaveTimeStamp:20181121105622919
+css:GrBlue
+subComponent:customerInvoice_grid.a5wcmp
+subComponent:customer_grid.a5wcmp
+subComponent:customer_ux.a5wcmp
+copyfile:{C:\Users\giantkillertraining\Documents\AlphaAnywhere V12\alpha102\alpha102.WebProjects\Default.WebProject\alphaSportsLogo.png}
+copyfile:{C:\Users\giantkillertraining\Documents\AlphaAnywhere V12\alpha102\alpha102.WebProjects\Default.WebProject\customerdirectory.a5rpt}
+copyfile:{C:\Users\giantkillertraining\Documents\AlphaAnywhere V12\alpha102\alpha102.WebProjects\Default.WebProject\invoicesbycustomer.a5rpt}
+copyfile:{C:\Users\giantkillertraining\Documents\AlphaAnywhere V12\alpha102\alpha102.WebProjects\Default.WebProject\alphaSportsLogo.png}
+subComponent:customerInvoice_grid
+subComponent:customer_grid
+subComponent:customer_ux

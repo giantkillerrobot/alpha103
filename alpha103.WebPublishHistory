@@ -1,0 +1,586 @@
+<PubHist<[1]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot\livepreview">
+<timestamp=CTODT('01/14/2019 12:43:55 14 pm')>
+>
+<[2]<type="folder">
+<name="ExeReportStyles">
+<target_folder="c:\a5webroot\livepreview">
+<timestamp=CTODT('01/14/2019 12:43:55 35 pm')>
+>
+<[3]<type="folder">
+<name="AppDataReportStyles">
+<target_folder="c:\a5webroot\livepreview">
+<timestamp=CTODT('01/14/2019 12:43:55 44 pm')>
+>
+<[4]<type="folder">
+<name="ExeChartStyles">
+<target_folder="c:\a5webroot\livepreview">
+<timestamp=CTODT('01/14/2019 12:43:55 55 pm')>
+>
+<[5]<type="folder">
+<name="AppDataChartStyles">
+<target_folder="c:\a5webroot\livepreview">
+<timestamp=CTODT('01/14/2019 12:43:55 64 pm')>
+>
+<[6]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customernm_grid.a5wcmp}">
+<target_folder="c:\a5webroot\livepreview">
+<timestamp=CTODT('01/14/2019 12:43:56 05 pm')>
+>
+<[7]<type="folder">
+<name="ExeReportStyles">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:26 80 pm')>
+>
+<[8]<type="folder">
+<name="AppDataReportStyles">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:26 90 pm')>
+>
+<[9]<type="folder">
+<name="ExeChartStyles">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 05 pm')>
+>
+<[10]<type="folder">
+<name="AppDataChartStyles">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 13 pm')>
+>
+<[11]<type="A5WPage">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\index.a5w}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 41 pm')>
+>
+<[12]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customer_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 45 pm')>
+>
+<[13]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customer_ux.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 62 pm')>
+>
+<[14]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customeredit_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 66 pm')>
+>
+<[15]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoice_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 68 pm')>
+>
+<[16]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoiceheader_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 70 pm')>
+>
+<[17]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoiceitems_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 74 pm')>
+>
+<[18]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoiceitemsedit_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 77 pm')>
+>
+<[19]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customernm_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:27 80 pm')>
+>
+<[20]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customernm_ux.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 01 pm')>
+>
+<[21]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoiceheader_ux.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 10 pm')>
+>
+<[22]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoiceheadernm_grid.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 13 pm')>
+>
+<[23]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\lastnameeditor_ux.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 20 pm')>
+>
+<[24]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\main_tui.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 24 pm')>
+>
+<[25]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\panellayout_ux.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 32 pm')>
+>
+<[26]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\panelnavigator_ux.a5wcmp}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 38 pm')>
+>
+<[27]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.css}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 40 pm')>
+>
+<[28]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.min.css}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 40 pm')>
+>
+<[29]<type="css">
+<name="a5system">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:28 84 pm')>
+>
+<[30]<type="css">
+<name="grblue">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:29 82 pm')>
+>
+<[31]<type="css">
+<name="grgray">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:31 27 pm')>
+>
+<[32]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\project.securitysettings}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 15 pm')>
+>
+<[33]<type="css">
+<name="cssicons">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 15 pm')>
+>
+<[34]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\alphasportslogo.png}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 15 pm')>
+>
+<[35]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.eot}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 16 pm')>
+>
+<[36]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.svg}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 16 pm')>
+>
+<[37]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.ttf}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 18 pm')>
+>
+<[38]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff2}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 20 pm')>
+>
+<[39]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 20 pm')>
+>
+<[40]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome.otf}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 21 pm')>
+>
+<[41]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerdirectory.a5rpt}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 23 pm')>
+>
+<[42]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoice.a5rpt}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 24 pm')>
+>
+<[43]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoiceheader.a5rpt}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 24 pm')>
+>
+<[44]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoicelineitems.a5rpt}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 26 pm')>
+>
+<[45]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoicesbycustomer.a5rpt}">
+<target_folder="tempftp___giantkillerdemo_com___administrator\alpha103">
+<timestamp=CTODT('01/15/2019 03:03:32 26 pm')>
+>
+<[46]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:19 33 am')>
+>
+<[47]<type="folder">
+<name="ExeReportStyles">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 37 pm')>
+>
+<[48]<type="folder">
+<name="AppDataReportStyles">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 39 pm')>
+>
+<[49]<type="folder">
+<name="ExeChartStyles">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 39 pm')>
+>
+<[50]<type="folder">
+<name="AppDataChartStyles">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 39 pm')>
+>
+<[51]<type="A5WPage">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\gridpage.a5w}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:33 83 pm')>
+>
+<[52]<type="A5WPage">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\index.a5w}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:33 86 pm')>
+>
+<[53]<type="A5WPage">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\tabbedui_tabbuinm.a5w}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:33 89 pm')>
+>
+<[54]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customer_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:33 99 pm')>
+>
+<[55]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customer_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:34 22 pm')>
+>
+<[56]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customeredit_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:34 31 pm')>
+>
+<[57]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoice_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:34 39 pm')>
+>
+<[58]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoiceheader_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 68 pm')>
+>
+<[59]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoiceitems_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 75 pm')>
+>
+<[60]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoiceitemsedit_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 78 pm')>
+>
+<[61]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customernm_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:21 86 pm')>
+>
+<[62]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customernm_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:22 11 pm')>
+>
+<[63]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoiceheader_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:22 23 pm')>
+>
+<[64]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoiceheadernm_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:22 26 pm')>
+>
+<[65]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\lastnameeditor_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:34 97 pm')>
+>
+<[66]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\list_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 20 pm')>
+>
+<[67]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\login.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 25 pm')>
+>
+<[68]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\main_tui.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 34 pm')>
+>
+<[69]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\panellayout_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 42 pm')>
+>
+<[70]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\panelnavigator_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 50 pm')>
+>
+<[71]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\tabbed_ux.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 59 pm')>
+>
+<[72]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\tabbuinm.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 66 pm')>
+>
+<[73]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.css}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 72 pm')>
+>
+<[74]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.min.css}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 75 pm')>
+>
+<[75]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:22 45 pm')>
+>
+<[76]<type="css">
+<name="alpha-bluegrey">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:37 17 pm')>
+>
+<[77]<type="css">
+<name="grblue">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:22 82 pm')>
+>
+<[78]<type="css">
+<name="grgray">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:23 73 pm')>
+>
+<[79]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\pages.securitysettings}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:24 53 pm')>
+>
+<[80]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:24 54 pm')>
+>
+<[81]<type="css">
+<name="cssicons">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 44 pm')>
+>
+<[82]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\alphasportslogo.png}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 45 pm')>
+>
+<[83]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.eot}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 58 pm')>
+>
+<[84]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.svg}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 61 pm')>
+>
+<[85]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.ttf}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 67 pm')>
+>
+<[86]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff2}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 69 pm')>
+>
+<[87]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 72 pm')>
+>
+<[88]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome.otf}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 77 pm')>
+>
+<[89]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerdirectory.a5rpt}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 78 pm')>
+>
+<[90]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerdirectorynm.a5rpt}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:24 56 pm')>
+>
+<[91]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\customerinvoice.a5rpt}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:24 57 pm')>
+>
+<[92]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoiceheader.a5rpt}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:39:24 59 pm')>
+>
+<[93]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoicelineitems.a5rpt}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 83 pm')>
+>
+<[94]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\invoicesbycustomer.a5rpt}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 86 pm')>
+>
+<[95]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_expired.dbf}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 02 am')>
+>
+<[96]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_expired.dbp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 03 am')>
+>
+<[97]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_expired.ddd}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 06 am')>
+>
+<[98]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_expired.ddm}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 08 am')>
+>
+<[99]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_expired.ddx}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 08 am')>
+>
+<[100]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_groups.cdx}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 09 am')>
+>
+<[101]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_groups.dbf}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 09 am')>
+>
+<[102]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_groups.dbp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 11 am')>
+>
+<[103]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_groups.ddd}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 13 am')>
+>
+<[104]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_groups.ddm}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 14 am')>
+>
+<[105]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_groups.ddx}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 16 am')>
+>
+<[106]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_members.dbf}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 16 am')>
+>
+<[107]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_members.dbp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 17 am')>
+>
+<[108]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_members.ddd}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 19 am')>
+>
+<[109]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_members.ddm}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 20 am')>
+>
+<[110]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_members.ddx}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 20 am')>
+>
+<[111]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_users.dbf}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 22 am')>
+>
+<[112]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_users.dbp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 24 am')>
+>
+<[113]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_users.ddd}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 25 am')>
+>
+<[114]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_users.ddm}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 25 am')>
+>
+<[115]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\websecurity_users.ddx}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 11:12:27 27 am')>
+>
+<[116]<type="WebComponent">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\userextendedinformation_grid.a5wcmp}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:35 67 pm')>
+>
+<[117]<type="file">
+<name="{c:\users\mac\documents\alphaanywhere v12\alpha103\alpha103.webprojects\default.webproject\projectproperties.projectproperties}">
+<target_folder="c:\a5webroot\alpha103">
+<timestamp=CTODT('01/16/2019 12:19:39 88 pm')>
+>
+>

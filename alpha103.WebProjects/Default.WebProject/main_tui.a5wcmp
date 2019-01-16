@@ -1,0 +1,839 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "style_name": "GrBlue",
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "FontSize": "Medium",
+        "A5ContainerClassPadding": "4px",
+        "layoutType": "ControlWidth",
+        "pageTitle": "Alpha Anywhere Web 1",
+        "serverSideEvents": {
+            "onTabbedUIInitialize": ""
+        },
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close",
+            "OKButtonText": "OK"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "info": {
+            "createdBy": "giantkillertraining",
+            "dateCreated": "2018-9-14",
+            "dateLastEdited": "2018-11-21"
+        },
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "loginPrompt": "Login",
+            "logoutPrompt": "Logout",
+            "loginActionType": "FullReload",
+            "showPromptForCreateNewAccount": false,
+            "newAccountLinkLocation": "MenuBar",
+            "promptForCreateNewAccount": "Register",
+            "createNewAccountComponent": "",
+            "createNewAccountWindowTitle": "Create New Account",
+            "customLeftMenuBarHTML": "",
+            "customCenterMenuBarHTML": "",
+            "loggedInMessageTemplate": "Logged in as: {userName}",
+            "dialog": {
+                "usernameLabel": "User Name",
+                "passwordLabel": "Password",
+                "hasFreeformLayout": false,
+                "freeformLayout": "",
+                "userNameLabelStyle": "",
+                "userNameFieldStyle": "",
+                "passwordLabelStyle": "",
+                "passwordFieldStyle": "",
+                "animation": true,
+                "animate": {
+                    "show": {
+                        "method": "slide",
+                        "speed": "slow"
+                    },
+                    "hide": {
+                        "method": "slide",
+                        "speed": "slow"
+                    }
+                },
+                "width": "",
+                "height": "",
+                "loginButtonLabel": "Login",
+                "loginButtonStyle": "",
+                "cancelButtonLabel": "Cancel",
+                "cancelButtonStyle": "",
+                "headerText": "",
+                "footerText": "",
+                "disableAutocompleteOnUsername": false,
+                "disableAutocompleteOnPassword": true
+            }
+        },
+        "page_fields": [
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{Data=392ab8e9-7a2d-4684-ab62-89d697ba496b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Invoices (Grid Component)] �",
+                "displayODFlat": "{Data=392ab8e9-7a2d-4684-ab62-89d697ba496b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Invoices]",
+                "idInternal": "392ab8e9-7a2d-4684-ab62-89d697ba496b",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=392ab8e9-7a2d-4684-ab62-89d697ba496b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Invoices]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=392ab8e9-7a2d-4684-ab62-89d697ba496b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Invoices (Grid Component)] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Customer Invoices",
+                        "actionType": "Component",
+                        "paneTitle": "Customer Invoices",
+                        "canClosePane": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": -1,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "gridName": "customerInvoice_grid",
+                            "componentType": "Grid",
+                            "alias": "<DefaultAlias>",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_392ab8e9_7a2d_4684_ab62_89d697ba496b(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    },
+                    "pageLayoutPart": {
+                        "grid": {
+                            "onLoadCompleteJavascript": ""
+                        }
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_392ab8e9_7a2d_4684_ab62_89d697ba496b(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer Invoices</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_392ab8e9_7a2d_4684_ab62_89d697ba496b'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\tgo.gridName = 'customerInvoice_grid';\n\tgo.alias = '{alias}_CUSTOMERIN_83454GRTP';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = '';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Customer Invoices',  name :'{alias}_CUSTOMERIN_83454GRTP', type:'grid', data: go , header: {\n\tclassName: '[theme:tabbedUI.base.footerClassName|{tabbedUI.style}FooterTD]',\n\tstyle: {\n\t\tborderTopStyle: 'none',\n\t\tborderBottomStyle: 'solid',\n\t\tborderBottomColor: '#ddd',\n\t\tborderBottomWidth: '1px',\n\t\tpadding: '0px'\n\t},\n\tshow: true,\n\thtml: '<div id=\"392ab8e9_7a2d_4684_ab62_89d697ba496b\"><div></div></div>'\n}, autoRefresh: false   }); \n\t\n}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": false
+            },
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{Data=bc7cbb38-d49d-4901-aaec-8759bbf82da1}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Grid (Grid Component)] �",
+                "displayODFlat": "{Data=bc7cbb38-d49d-4901-aaec-8759bbf82da1}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Grid]",
+                "idInternal": "bc7cbb38-d49d-4901-aaec-8759bbf82da1",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=bc7cbb38-d49d-4901-aaec-8759bbf82da1}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Grid]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=bc7cbb38-d49d-4901-aaec-8759bbf82da1}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Grid (Grid Component)] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Customer Grid",
+                        "actionType": "Component",
+                        "paneTitle": "Customer Grid",
+                        "canClosePane": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": -1,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "gridName": "customer_grid",
+                            "componentType": "Grid",
+                            "alias": "<DefaultAlias>",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_bc7cbb38_d49d_4901_aaec_8759bbf82da1(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    },
+                    "pageLayoutPart": {
+                        "grid": {
+                            "onLoadCompleteJavascript": ""
+                        }
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_bc7cbb38_d49d_4901_aaec_8759bbf82da1(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer Grid</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_bc7cbb38_d49d_4901_aaec_8759bbf82da1'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\tgo.gridName = 'customer_grid';\n\tgo.alias = '{alias}_CUSTOMER_G_142339WHLG';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = '';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Customer Grid',  name :'{alias}_CUSTOMER_G_142339WHLG', type:'grid', data: go , header: {\n\tclassName: '{tabbedUI.style}FooterTD',\n\tstyle: {\n\t\tborderTopStyle: 'none',\n\t\tborderBottomStyle: 'solid',\n\t\tborderBottomColor: '#ddd',\n\t\tborderBottomWidth: '1px',\n\t\tpadding: '0px'\n\t},\n\tshow: true,\n\thtml: '<div id=\"bc7cbb38_d49d_4901_aaec_8759bbf82da1\"><div></div></div>'\n}, autoRefresh: false  }); \n\t\n}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": false
+            },
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{Data=4015a20b-4fbf-400c-a27c-288730ee944b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX (UX Component)] �",
+                "displayODFlat": "{Data=4015a20b-4fbf-400c-a27c-288730ee944b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX]",
+                "idInternal": "4015a20b-4fbf-400c-a27c-288730ee944b",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=4015a20b-4fbf-400c-a27c-288730ee944b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=4015a20b-4fbf-400c-a27c-288730ee944b}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer UX (UX Component)] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Customer UX",
+                        "actionType": "Component",
+                        "paneTitle": "Customer UX",
+                        "canClosePane": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": -1,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "gridName": "customer_ux",
+                            "componentType": "UX",
+                            "alias": "<DefaultAlias>",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "PDF",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_4015a20b_4fbf_400c_a27c_288730ee944b(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    },
+                    "pageLayoutPart": {
+                        "grid": {
+                            "onLoadCompleteJavascript": ""
+                        }
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_4015a20b_4fbf_400c_a27c_288730ee944b(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer UX</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_4015a20b_4fbf_400c_a27c_288730ee944b'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\t\tgo.dialog2Name = 'customer_ux';\n\tgo.type = 'dialog2';\n\t\n\tgo.alias = '{alias}_CUSTOMER_U_142826GQYR';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = '';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Customer UX',  name :'{alias}_CUSTOMER_U_142826GQYR', type:'dialog2', data: go , header: {\n\tclassName: '{tabbedUI.style}FooterTD',\n\tstyle: {\n\t\tborderTopStyle: 'none',\n\t\tborderBottomStyle: 'solid',\n\t\tborderBottomColor: '#ddd',\n\t\tborderBottomWidth: '1px',\n\t\tpadding: '0px'\n\t},\n\tshow: true,\n\thtml: '<div id=\"4015a20b_4fbf_400c_a27c_288730ee944b\"><div></div></div>'\n}, autoRefresh: false  }); \n\t\n}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": false
+            },
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{Data=d8d03e9b-094e-49cc-bb1e-342422a2e614}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Directory (Report Layout )] �",
+                "displayODFlat": "{Data=d8d03e9b-094e-49cc-bb1e-342422a2e614}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Directory]",
+                "idInternal": "d8d03e9b-094e-49cc-bb1e-342422a2e614",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=d8d03e9b-094e-49cc-bb1e-342422a2e614}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Directory]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=d8d03e9b-094e-49cc-bb1e-342422a2e614}{I:'$$control.html.advButton'} [Tabbed UI Button: Customer Directory (Report Layout )] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Customer Directory",
+                        "actionType": "Report Layout ",
+                        "paneTitle": "Customer Directory",
+                        "canClosePane": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": -1,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "componentType": "Grid",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "reportPrintDefinition": "<layoutName=\"customerdirectory@ProjectReport\">\n<layoutType=1>\n<dbfFilter=\"\">\n<dbfOrder=\"\">\n<sqlFilter=\"\">\n<sqlOrder=\"\">\n<localArguments=\"\">\n<argumentBindings=\"\">\n<pdfOptions=\"\">\n<localFilter=\"\">\n<localOrder=\"\">\n",
+                            "layoutTypeC": "Report",
+                            "layoutName": "customerdirectory@ProjectReport",
+                            "sqlReport": true,
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "HTML",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "printHTML": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_d8d03e9b_094e_49cc_bb1e_342422a2e614(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_d8d03e9b_094e_49cc_bb1e_342422a2e614(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer Directory</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_d8d03e9b_094e_49cc_bb1e_342422a2e614'] = function() {\n\tvar objOverrides = typeof arguments[0] != 'undefined' ? arguments[0] : {};\n\t\n\tvar ro = new Object();\n\t\n\tro.hostComponentType = 'tabbedUI';\n\n\tro.reportName = 'customerdirectory@ProjectReport';\n\tro.reportType = 'report';\n\tro.filter = '';\n\tro.order = '';\n\tro.sqlFilter = '';\n\tro.sqlOrder = '';\n\tro.arguments = '';\n\tro.localArguments = '';\n\tro.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tro.workingMessage = 'Working...';\n\tro.width = '9in';\n\tro.height = '11.5in';\n\tro.pdfoptions = '';\n\tro.displayMode = '';\n\tro.saveAs = 'pdf';\n\tro.afterExecuteJavascript = '';\n\tro.beforeExecuteJavascript = ''\n\tif(ro.beforeExecuteJavascript != '') eval(ro.beforeExecuteJavascript);\n\tif(A5.__dtfmt) ro.__dtfmt = A5.__dtfmt;\n\t\n\tro.__flagIIS = false;\n\tif(A5.__flagIIS) ro.__flagIIS = A5.__flagIIS;\n\t\n\t\n\t\n\tro.htmlReporting = {initialView: 'HTML',styleName: '{grid.style}',componentAlias: 'tbiObj',buttons: {pdf: true,excel: false,word: false,text: false,printHTML: true,pdfButton: {text: 'PDF',buttonType: 'Image followed by text',imageName: 'images/$$application.adobe.pdf.png.a5image',bubbleHelp: 'Print report as a PDF document.'},printHTMLButton: {text: 'Print HTML',buttonType: 'Image followed by text',imageName: 'images/$$device.printer.png.a5image',bubbleHelp: 'Print the HTML report.'},bookmarksButton: {buttonType: 'Text',text: 'Bookmarks',imageName: 'images/$$generic.book.png.a5image'}},bookMarkPanelSize: '3in',htmlReportHeight: '3in',htmlReportWidth: '6in',reportTargetType: 'TabbedUI Pane',pdfOptions: ''};\n\t\n\t\n\t\n\n\tif(typeof objOverrides != 'undefined') {\n\t\t$u.o.assign(ro,objOverrides)\n\t}\n\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title:'Customer Directory',  name:'PANE_d8d03e9b_094e_49cc_bb1e_342422a2e614',  type:'htmlReport', data: ro , header: {\n\tclassName: '{tabbedUI.style}FooterTD',\n\tstyle: {\n\t\tborderTopStyle: 'none',\n\t\tborderBottomStyle: 'solid',\n\t\tborderBottomColor: '#ddd',\n\t\tborderBottomWidth: '1px',\n\t\tpadding: '0px'\n\t},\n\tshow: true,\n\thtml: '<div id=\"d8d03e9b_094e_49cc_bb1e_342422a2e614\"><div></div></div>'\n}, autoRefresh: false , onBeforeRemove: function(paneObj) {  var ele = $(paneObj._id + '.PANE'); if(ele) ele.src = 'about:blank'; return true;}\t});\n\t\n\t}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": false
+            },
+            {
+                "controlType": "TabbedUIButton",
+                "display": "{B=White,Light Blue}{Data=fb79e599-df34-4a52-8c0b-7fe60110033c}{I:'$$control.html.advButton'} [Tabbed UI Button: Invoices By Customer (Report Layout )] �",
+                "displayODFlat": "{Data=fb79e599-df34-4a52-8c0b-7fe60110033c}{I:'$$control.html.advButton'} [Tabbed UI Button: Invoices By Customer]",
+                "idInternal": "fb79e599-df34-4a52-8c0b-7fe60110033c",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=fb79e599-df34-4a52-8c0b-7fe60110033c}{I:'$$control.html.advButton'} [Tabbed UI Button: Invoices By Customer]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=fb79e599-df34-4a52-8c0b-7fe60110033c}{I:'$$control.html.advButton'} [Tabbed UI Button: Invoices By Customer (Report Layout )] �",
+                "v": {
+                    "tabbedUI": {
+                        "buttonType": "Button",
+                        "buttonText": "Invoices By Customer",
+                        "actionType": "Report Layout ",
+                        "paneTitle": "Invoices By Customer",
+                        "canClosePane": true,
+                        "treeControl": {
+                            "controlNesting": "SameLevelAsPrevious",
+                            "outdentLevel": 1,
+                            "treeControlIndentLevel": -1,
+                            "icon": "<Auto>"
+                        },
+                        "header": {
+                            "className": "<Default>",
+                            "style": {
+                                "borderTopStyle": "none",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#ddd",
+                                "borderBottomWidth": "1px",
+                                "padding": "0px"
+                            },
+                            "show": true,
+                            "canHide": true
+                        },
+                        "grid": {
+                            "componentType": "Grid",
+                            "useMasterStyle": true,
+                            "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
+                        },
+                        "report": {
+                            "reportPrintDefinition": "<layoutName=\"invoicesbycustomer@ProjectReport\">\n<layoutType=1>\n<dbfFilter=\"\">\n<dbfOrder=\"\">\n<sqlFilter=\"\">\n<sqlOrder=\"\">\n<localArguments=\"\">\n<argumentBindings=\"\">\n<pdfOptions=\"\">\n<localFilter=\"\">\n<localOrder=\"\">\n",
+                            "layoutTypeC": "Report",
+                            "layoutName": "invoicesbycustomer@ProjectReport",
+                            "sqlReport": true,
+                            "workingMessage": "Working...",
+                            "printReportButtonLabel": "Print Report",
+                            "moreRecordsTemplate": "<hr />Showing first [DisplayRecords] of [TotalRecords] records in query",
+                            "moreRecordsStyle": "text-align: center;",
+                            "initialView": "HTML",
+                            "HTMLToolbar": {
+                                "buttons": {
+                                    "pdf": true,
+                                    "excel": true,
+                                    "printHTML": true,
+                                    "word": true,
+                                    "pdfButton": {
+                                        "text": "PDF",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.adobe.pdf.png.a5image",
+                                        "bubbleHelp": "Print report as a PDF document."
+                                    },
+                                    "excelButton": {
+                                        "text": "Excel",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.excel.png.a5image",
+                                        "bubbleHelp": "Export report to Excel."
+                                    },
+                                    "printHTMLButton": {
+                                        "text": "Print HTML",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$device.printer.png.a5image",
+                                        "bubbleHelp": "Print the HTML report."
+                                    },
+                                    "WordButton": {
+                                        "text": "Word",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$application.ms.word.png.a5image",
+                                        "bubbleHelp": "Export report to Word."
+                                    },
+                                    "textButton": {
+                                        "text": "Text",
+                                        "buttonType": "Image followed by text",
+                                        "imageName": "images/$$control.text.png.a5image",
+                                        "bubbleHelp": "Export data in report to a text file."
+                                    },
+                                    "bookmarksButton": {
+                                        "buttonType": "Text",
+                                        "text": "Bookmarks",
+                                        "imageName": "images/$$generic.book.png.a5image"
+                                    }
+                                },
+                                "bookMarkPanelSize": "3in"
+                            }
+                        },
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "keyboardshortcutkey": ""
+                    },
+                    "class": "<Default>",
+                    "style": "width:1.5in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "action_{alias}_fb79e599_df34_4a52_8c0b_7fe60110033c(); return false;"
+                    },
+                    "sencha": {
+                        "animation": {
+                            "type": "slide",
+                            "duration": 500
+                        }
+                    }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_fb79e599_df34_4a52_8c0b_7fe60110033c(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Invoices By Customer</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_fb79e599_df34_4a52_8c0b_7fe60110033c'] = function() {\n\tvar objOverrides = typeof arguments[0] != 'undefined' ? arguments[0] : {};\n\t\n\tvar ro = new Object();\n\t\n\tro.hostComponentType = 'tabbedUI';\n\n\tro.reportName = 'invoicesbycustomer@ProjectReport';\n\tro.reportType = 'report';\n\tro.filter = '';\n\tro.order = '';\n\tro.sqlFilter = '';\n\tro.sqlOrder = '';\n\tro.arguments = '';\n\tro.localArguments = '';\n\tro.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tro.workingMessage = 'Working...';\n\tro.width = '9in';\n\tro.height = '11.5in';\n\tro.pdfoptions = '';\n\tro.displayMode = '';\n\tro.saveAs = 'pdf';\n\tro.afterExecuteJavascript = '';\n\tro.beforeExecuteJavascript = ''\n\tif(ro.beforeExecuteJavascript != '') eval(ro.beforeExecuteJavascript);\n\tif(A5.__dtfmt) ro.__dtfmt = A5.__dtfmt;\n\t\n\tro.__flagIIS = false;\n\tif(A5.__flagIIS) ro.__flagIIS = A5.__flagIIS;\n\t\n\t\n\t\n\tro.htmlReporting = {initialView: 'HTML',styleName: '{grid.style}',componentAlias: 'tbiObj',buttons: {pdf: true,excel: true,word: true,text: false,printHTML: true,pdfButton: {text: 'PDF',buttonType: 'Image followed by text',imageName: 'images/$$application.adobe.pdf.png.a5image',bubbleHelp: 'Print report as a PDF document.'},excelButton: {text: 'Excel',buttonType: 'Image followed by text',imageName: 'images/$$application.ms.excel.png.a5image',bubbleHelp: 'Export report to Excel.'},wordButton: {text: 'Word',buttonType: 'Image followed by text',imageName: 'images/$$application.ms.word.png.a5image',bubbleHelp: 'Export report to Word.'},printHTMLButton: {text: 'Print HTML',buttonType: 'Image followed by text',imageName: 'images/$$device.printer.png.a5image',bubbleHelp: 'Print the HTML report.'},bookmarksButton: {buttonType: 'Text',text: 'Bookmarks',imageName: 'images/$$generic.book.png.a5image'}},bookMarkPanelSize: '3in',htmlReportHeight: '3in',htmlReportWidth: '6in',reportTargetType: 'TabbedUI Pane',pdfOptions: ''};\n\t\n\t\n\t\n\n\tif(typeof objOverrides != 'undefined') {\n\t\t$u.o.assign(ro,objOverrides)\n\t}\n\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title:'Invoices By Customer',  name:'PANE_fb79e599_df34_4a52_8c0b_7fe60110033c',  type:'htmlReport', data: ro , header: {\n\tclassName: '[theme:tabbedUI.base.footerClassName|{tabbedUI.style}FooterTD]',\n\tstyle: {\n\t\tborderTopStyle: 'none',\n\t\tborderBottomStyle: 'solid',\n\t\tborderBottomColor: '#ddd',\n\t\tborderBottomWidth: '1px',\n\t\tpadding: '0px'\n\t},\n\tshow: true,\n\thtml: '<div id=\"fb79e599_df34_4a52_8c0b_7fe60110033c\"><div></div></div>'\n}, autoRefresh: false , onBeforeRemove: function(paneObj) {  var ele = $(paneObj._id + '.PANE'); if(ele) ele.src = 'about:blank'; return true;}\t});\n\t\n\t}\n"
+                },
+                "inPanelCard": false,
+                "inTreeControl": false
+            }
+        ],
+        "builderType": "TabbedUI",
+        "guid": "179d6734-aefc-4fc3-a208-c800ba6637e2",
+        "componentName": "main_tui",
+        "componentFilename": "C:\\Users\\giantkillertraining\\Documents\\AlphaAnywhere V12\\alpha102\\alpha102.WebProjects\\Default.WebProject\\main_tui.a5wcmp",
+        "_style_versionNumber": 2,
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "useCompactTheme": true,
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "selected": "fb79e599-df34-4a52-8c0b-7fe60110033c\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "TabbedUIProps",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "__WPhostName": "Chrome",
+        "embeddedMode": false,
+        "_style_hassubthemeTweaks": false,
+        "repeatingSectionsAreDirty": true,
+        "flagDropdownCascadingChanged": false,
+        "toolBox_value": "tabbedUIButton_Report",
+        "addinBuildNumber": "5205",
+        "addinBuildNumberHighestUsed": "5205",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "_buildCount": "21",
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "precalc": {
+            "usesSystemSVG": false,
+            "buttonPanel": {
+                "HTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_392ab8e9_7a2d_4684_ab62_89d697ba496b(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer Invoices</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_bc7cbb38_d49d_4901_aaec_8759bbf82da1(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer Grid</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_4015a20b_4fbf_400c_a27c_288730ee944b(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer UX</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_d8d03e9b_094e_49cc_bb1e_342422a2e614(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Customer Directory</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width:1.5in;\" title=\"\"  onclick=\"action_{alias}_fb79e599_df34_4a52_8c0b_7fe60110033c(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Invoices By Customer</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                "JS": ""
+            },
+            "treeControlJS": "",
+            "hompePageJavascript": "var homePageHTML = '__homePageHtml__';\ntbiObj.add({title: '{tabbedUI.homePageTitle}', type: 'static', html: homePageHTML , close: false});\n",
+            "PageSetupJavascript": "\nvar tbiObj = new A5.TabbedInterfaceComponentHelper('{tabbedUI.alias}',__tabSettings__);\ntbiObj._functions = {};\ntbiObj._buttons = [];\nvar homePageHTML = '__homePageHtml__';\ntbiObj.add({title: '{tabbedUI.homePageTitle}', type: 'static', html: homePageHTML , close: false});\n\n\n\n\ntbiObj.showTabbedUIMenuPanel = function(flag) { \n\tvar resizePanels = function() { \n\t\tvar arr = tbiObj._tbObj._panes;\n\t\tfor(var i = 0; i < arr.length; i++) {\n\t\t\tvar id = arr[i]._id;\n\t\t\t$e.execute(id + '.PANE','a5resize');\n\t\t};\n\t}\n\n\n\n\tif(typeof flag == 'undefined') flag = true;\n\tif(typeof jQuery != 'undefined' && flag) {\n\t\tvar ele = $('tbi.MENUPANEL');\n\t\tele.style.display = '';\n\t\t$('tbi.EXPANDBAR').style.display = 'none';\n\t\tjQuery(ele).animate({width:$ga(ele,'A5OLDWIDTH') }, tbiObj._showAnimationSpeed,function() { resizePanels()});\n\t\ttbiObj.refreshLayout();\n\t} else {\n\t\t$('tbi.MENUPANEL').style.display=''; $('tbi.EXPANDBAR').style.display = 'none'; tbiObj.refreshLayout(); resizePanels();\n\t}\n\n\t}\ntbiObj.hideTabbedUIMenuPanel = function(flag) { \n\tvar resizePanels = function() { \n\t\tvar arr = tbiObj._tbObj._panes;\n\t\tfor(var i = 0; i < arr.length; i++) {\n\t\t\tvar id = arr[i]._id;\n\t\t\t$e.execute(id + '.PANE','a5resize');\n\t\t};\n\t}\n\n\tif(typeof flag == 'undefined') flag = true;\n\tif(typeof arguments[1] != 'undefined') flagShowExpandBar = arguments[1] ;\n\telse flagShowExpandBar = true;\n\tvar ele = $('tbi.MENUPANEL');\n\tif($ga(ele,'A5OLDWIDTH') == '' || $ga(ele,'A5OLDWIDTH') == null) $sa(ele,'A5OLDWIDTH',ele.style.width);\n\tif(typeof jQuery != 'undefined' && flag) {\n\t\tjQuery(ele).animate({width:22}, tbiObj._hideAnimationSpeed,'',function() {\n\t\t    var mele = $('tbi.MENUPANEL');\n\t\t    mele.style.display='none';\n\n\t\t    if(flagShowExpandBar) $('tbi.EXPANDBAR').style.display = '';\n\t\t    resizePanels();\n\t\t});\n\n\t} else {\n\t\t$('tbi.MENUPANEL').style.display='none';\n\t\tif(flagShowExpandBar) $('tbi.EXPANDBAR').style.display = '';\n\t\tresizePanels();\n\t}\n\n\n\t}\n\n\ntbiObj._defaultWindowSettings = new Object();\ntbiObj._defaultWindowSettings['dropdown'] = {\n\ttype: 'popup',\n\ttheme: this.styleName,\n\ttitle: {html: 'Null',show: false},\n\tbody:  {content: {type: 'blank'}}\n};\n\n\ntbiObj._defaultWindowSettings['modal'] = {\n\ttype: 'modal', autoPosition: 'in-view',\n\ttheme: this.styleName,\n\ttitle: {html: 'Customer Grid',\n\t\ttools: {items: [{action: 'close',name: 'Close',image: 'images/$$window.button.close.png.a5image'}],\n\t\t\tdummy: false\n\t\t}},\n\tbody: {content: {type: 'blank'}}\n};\n\ntbiObj._defaultWindowSettings['modeless'] = {\n\ttype: 'modeless', autoPosition: 'in-view',\n\ttheme: this.styleName,\n\ttitle: {html: 'Customer Grid',\n\t\ttools: {items: [{action: 'close',name: 'Close',image: 'images/$$window.button.close.png.a5image'}],\n\t\t\tdummy: false\n\t\t}},\n\tbody: {content: {type: 'blank'}}\n};\n\ntbiObj._genericWindow = new Object();\n\n\ntbiObj.getCurrentPaneIndex = function() {\n\treturn tbiObj._tbObj._curTabIndx;\n}\n\ntbiObj.getCurrentPaneName = function() {\n\treturn tbiObj._tbObj._items[tbiObj._tbObj._curTabIndx].name;\n}\n\ntbiObj.getCurrentPaneLabel = function() {\n\treturn tbiObj._tbObj._items[tbiObj._tbObj._curTabIndx].html;\n}\n\n\ntbiObj.selectPaneByIndex = function(index) {\n\ttbiObj._tbObj.select(index);\n}\n\n\ntbiObj.createWindow =  function(name,settings) {\n\tif(!this.getWindow(name)) {\n\t\tif(typeof settings == 'string') {\n\t\t\tvar parts = settings.split('-');\n\t\t\tsettings = new Object();\n\t\t\t$u.o.assign(settings , this._defaultWindowSettings[parts.shift()]);\n\t\t\tfor(var i=0;i<parts.length;i++){\n\t\t\t\tif(parts[i] == 'url'){\n\t\t\t\t\tsettings.body.content.type = 'url';\n\t\t\t\t\tsettings.body.content.url = 'about:blank';\n\t\t\t\t} else if(parts[i] == 'resizable'){\n\t\t\t\t\tsettings.resize = 'both';\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tif(typeof arguments[2] == 'object') $u.o.assign(settings,arguments[2]);\n\t\tthis._genericWindow[name] = new A5.Window(settings);\n\t}\n\treturn this._genericWindow[name];\n}\n\ntbiObj.getWindow =  function(name) {\n\tif(typeof this._genericWindow[name] != 'undefined' ) return this._genericWindow[name];\n\treturn false;\n}\n\n\n\ntbiObj.ajaxCallback = function(xbasicFunction,data) {\n\tvar callbackURL = tbiObj.ajaxURL;\n\tvar data2 = '_callbackType=genericAjaxCallback&_xbasicFunction=' + xbasicFunction + '&' + data;\n\tA5.ajax.callback(callbackURL,data2);\n}\n\ntbiObj._timeToSessionTimeout = function(units) {\n\tif(isNaN($a.lastCallback)) return 9999999999999999;\n\tvar t = (Date.now() - $a.lastCallback);\n\tvar tte = (tbiObj._sessionTimeoutInMSeconds - t);\n\tif(units == 's') return (tte/1000);\n\tif(units == 'm') return (tte/60000);\n\tif(units == 'ms') return (tte);\n\treturn tte\n}\n\n\n\ntbiObj._executeEvent = function(eventName) {\n\tvar result = true;\n\tvar targs = new Array();\n\tfor(var i = 1; i < arguments.length; i++) targs.push(arguments[i]);\n\tvar tresult = false;\n\tif(typeof this[eventName] != 'undefined'  ) {\n\n\t\tif(this[eventName].constructor == Function) {\n\t\t\ttresult = this[eventName].apply(this,targs);\n\t\t\tif(typeof tresult == 'boolean') result = tresult;\n\t\t}\n\t}\n\tif(typeof this['_' +eventName] != 'undefined' ) {\n\t\tif(this['_'+eventName].constructor == Function) {\n\t\t\ttresult = this['_'+eventName].apply(this,targs);\n\t\t\tif(typeof tresult == 'boolean') result = result && tresult;\n\t\t}\n\n\t}\n\treturn result;\n}\n\n\n\n\n\ntbiObj._hideAnimationSpeed = 600;\ntbiObj._showAnimationSpeed = 600;;\n;\n;\n\nA5.msgBox.theme = '{grid.style}';;\n//systemOnRenderComplete\ntbiObj._executeEvent('onRenderComplete',{});",
+            "expandingMenuJS": "",
+            "TabbedUIMasterTemplate": "<iframe style=\"display:none;\" id=\"TBIOBJ.__IFRAME1\"></iframe>\n<input type=\"hidden\" value=\"{parameterBucket}\" id=\"{alias}.PARAMETERBUCKET\"/>\n<input type=\"hidden\" value=\"{savedArgValues}\" id=\"{alias}.ARGUMENTVALUES\"/>\n\n\n<div class=\"[theme:tabbedUI.base.headerClassName]\" style=\"overflow:hidden;\">\n{tabbedUI.header}\n</div>\n<table\n\tid=\"{tabbedUI.alias}\"\n\tclass=\"[class.tabbedUI]\"\n\tcellpadding=\"0\"\n\tcellspacing=\"0\"\n\tstyle=\"table-layout: fixed; width: 100%; border-left: none; border-right: none;\">\n\t<tr>\n\t\t<td \tid=\"{tabbedUI.alias}.EXPANDBAR\"\n\t\t\t\tclass=\"[theme:tabbedUI.base.menu.left.collapsedClassName|class.tabbedUIMenuCollapsed] \"\n\t\t\t\tstyle=\"display:none; width: [theme:tabbedUI.base.menu.left.collapsedSize|'20px'];\"\n\t\t\t\tvalign=\"top\"\n\t\t\t\tonclick=\"tbiObj.showTabbedUIMenuPanel();\"\n\t\t\t\t>\n\t\t\t\t<img id=\"{tabbedUI.alias}.EXPANDBAR_IMAGE\" src=\"***leftExpand***\" style=\"cursor:pointer;\"/>\n\n\t\t</td>\n\t\t<td \tid=\"{tabbedUI.alias}.MENUPANEL\"\n\t\t\t\tclass=\"[theme:tabbedUI.base.menu.left.className|class.tabbedUIMenuPanel] \"\n\t\t\t\tstyle=\"{tabbedUI.buttonsPaneStyle}; ;\"\n\t\t\t\tvAlign=\"top\"><!--TD for the Buttons Pane (which contains the action buttons)-->\n\t\t\t<div id=\"{tabbedUI.alias}.MENUPANEL_HEADER\" class=\"[theme:tabbedUI.base.menu.left.headerClassName|class.TabbedUIMenuPanelHeader] \" style=\"\">\n\t\t\t\t<table cellspacing=\"0\" cellpadding=\"0\">\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td\t\tid=\"{tabbedUI.alias}.MENUPANEL_EMPTYCELL\"\n\t\t\t\t\t\t\t\tstyle=\"width: 100%;\">\n\t\t\t\t\t\t&nbsp;\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<img src=\"***leftCollapse***\" id=\"{tabbedUI.alias}.MENUPANEL_IMAGE\" style=\"cursor:pointer;\" onclick=\"tbiObj.hideTabbedUIMenuPanel()\" />\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div \tid=\"{tabbedUI.alias}.MENU\"\n\t\t\t\t\tclass=\"\"\n\t\t\t\t\tstyle=\"{tabbedUI.buttonsPadding}\">\n\t\t\t\t\t\n\n\n\t\t\t\t{tabbedUI.buttonsPane}\n\t\t\t</div>\n\t\t</td><!--End TD for Buttons Pane-->\n\t\t<td id=\"{tabbedUI.alias}.DIVIDER\" class=\"[theme:tabbedUI.base.menu.left.separatorClassName|class.tabbedUIDivider]\" style=\"width: 4px; font: 0pt Arial;padding: 0px;\">\n\t\t\t&nbsp;\n\t\t</td>\n\t\t<td \tclass=\"[theme:tabbedUI.base.bodyClassName|class.tabbedUIPanel]\"\n\t\t\t\tid=\"{tabbedUI.alias}.CONTENTPANEL\"\n\t\t\t\tvAlign=\"top\"\n\t\t\t\tstyle=\"padding: 0px; \">\n\t\t\t<div \tid=\"{tabbedUI.alias}.TABBAND\"\n\t\t\t\t\tstyle=\"border-top: none; border-left: none; border-right: none;\">\n\t\t\t</div>\n\t\t\t<div id=\"{tabbedUI.alias}.PANES\" style=\"position:relative;\">\n\t\t\t</div>\n\t\t</td>\n\t</tr>\n</table>\n<div class=\"[theme:tabbedUI.base.footerClassName]\" style=\"overflow:hidden;\">\n{tabbedUI.footer}\n</div>\n"
+        },
+        "componentType": "TabbedUI",
+        "version": 1,
+        "alias": "tbi",
+        "linkedResources": "",
+        "A5SaveTimeStamp": "20181121105622919",
+        "minimumBuildNumber": "",
+        "headerHTML": "<h1><img style=\"HEIGHT: 80px\" src=\"alphaSportsLogo.png\" >Alpha Sports</h1>",
+        "footerHTML": "Copyright 2018 Alpha Software",
+        "buttonPanel": {
+            "Location": "Left",
+            "Style": "width: 2in;",
+            "paddingLeft": ".25in",
+            "paddingRight": "",
+            "paddingTop": ".25in",
+            "setPaddingOffIfHasTree": true
+        },
+        "homePage": {
+            "TabTitle": "Home",
+            "HTML": "<p>Welcome to the AlphaSports dashboard. </p>\n<p><img style=\"HEIGHT: 400px\" src=\"alphaSportsLogo.png\" ></p>",
+            "source": "Local",
+            "autoRefresh": false,
+            "URL": ""
+        },
+        "ContainerA5WPageName": "index.a5w",
+        "NavigateAwayMessageDirty": "{pane.title} contains unsaved data.",
+        "NavigateAwayMessageClean": "",
+        "promptWhenUserNavigatesFromTabbedUIPage": false,
+        "canCollapseButtonPane": true,
+        "buttonPaneInitialState": "Open",
+        "nocriptContent": "",
+        "closeTabImage": "<Default>",
+        "closeTabHoverImage": "<Default>",
+        "scrollTabsPrevImage": "<Default>",
+        "scrollTabsPrevDisabledImage": "<Default>",
+        "scrollTabsNextImage": "<Default>",
+        "scrollTabsNextDisabledImage": "<Default>",
+        "collapseButtonPanelLeft": "<Specified by Style>",
+        "collapseButtonPanelRight": "<Specified by Style>",
+        "expandButtonPanelLeft": "<Specified by Style>",
+        "expandButtonPanelRight": "<Specified by Style>",
+        "classNameTabBand": "<Default>",
+        "classNameTabBandSeparator": "<Default>",
+        "classNameTabOff": "<Default>",
+        "classNameTabOn": "<Default>",
+        "classNameTabDisabled": "<Default>",
+        "classNameTabBandLeftScroll": "<Default>",
+        "classNameTabBandRightScroll": "<Default>",
+        "classNameTabBandLeftScrollDisabled": "<Default>",
+        "classNameTabBandRightScrollDisabled": "<Default>",
+        "userDefinedHeadContent": "",
+        "noscriptcontent": "",
+        "JavascriptToRunOnStartup": "",
+        "MasterTemplate": "",
+        "componentWidth": "800px",
+        "componentBorderClassName": "{tabbedUI.style}Edit",
+        "componentBorderInlineStyle": "padding: 0px;",
+        "animateShowHideButtons": true,
+        "animate": {
+            "Hide": {
+                "speed": "Slow"
+            },
+            "Show": {
+                "speed": "Slow"
+            }
+        },
+        "hideTabbedUIElements": false,
+        "layout": {
+            "hideTabButtons": false,
+            "layoutMode": "DesktopBrowser",
+            "MobileModeMenuButtonText": "Menu",
+            "mobileDisplayHomePage": false,
+            "MobileMenuTitle": "Menu"
+        },
+        "hasSearchFeature": false,
+        "searchLabel": "Search",
+        "searchFieldWatermark": "Enter search string",
+        "searchResultsClass": "",
+        "searchPartClass": "",
+        "searchInputClass": "",
+        "nosearchResults": "No results found",
+        "searchResultsButtonClass": "",
+        "minimumHeight": 0,
+        "defaultView": "DesktopBrowser",
+        "autoHideButtonPanel": false,
+        "autoHideDelay": 500,
+        "hideButtonPanePermanenly": false,
+        "__LPhostName": "Chrome",
+        "legacyThemeJS": "A5.themes.add('{tabbedUI.style}',{\n\ttabBand: {\n\t\tbase: {\n\t\t\tclassName: '{grid.style}FormTABLE {grid.style}ColumnTD A5TabBand',\n\t\t\tseparator:{\n\t\t\t\tclassName: '{grid.style}DataTD A5TabBandSeparator'\n\t\t\t},\n\t\t\ttab: {\n\t\t\t\tclassName: '{grid.style}FormTABLE {grid.style}AltDataTD A5TabBandTabOff',\n\t\t\t\tselectedClassName: '{grid.style}FormTABLE {grid.style}DataTD A5TabBandTabOn',\n\t\t\t\tdisabledClassName: '{grid.style}FormTABLE {grid.style}AltDataTD A5TabBandTabDisabled',\n\t\t\t\tcloseIcon: 'css/A5System/Images/tabclose.png',\n\t\t\t\tcloseIconHover: 'css/A5System/Images/tabcloseHover.png'\n\t\t\t},\n\t\t\tscrollButtons: {\n\t\t\t\tprevClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandLeftScroll',\n\t\t\t\tprevDisabledClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandLeftScroll',\n\t\t\t\tprevImage: 'css/{grid.style}/PrevOn.png',\n\t\t\t\tprevDisabledImage: 'css/{grid.style}/PrevOff.png',\n\t\t\t\tnextClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandRightScroll',\n\t\t\t\tnextDisabledClassName: '{grid.style}FormTABLE {grid.style}AltDataTD  A5TabBandRightScroll',\n\t\t\t\tnextImage: 'css/{grid.style}/NextOn.png',\n\t\t\t\tnextDisabledImage: 'css/{grid.style}/NextOff.png'\n\t\t\t}\n\t\t}\n\t}\n});\n",
+        "style_color_palette": "",
+        "Livepreview_permissions": "",
+        "showPulseEffect": true,
+        "cssTabbedUICustomizeCSSJSON": "",
+        "searchResultsButtonStyle": "",
+        "_style_isInherited": false,
+        "_flagDoTreeview": true
+    }
+}
